@@ -1,0 +1,89 @@
+- ETH fair training
+	- duration
+		- 12 months
+	- participants
+		- 15 participants
+			- 5 data steward / rse type positions
+			- 10 PhDs / Post Docs
+		- pre-requisities
+			- employed at at ETH for duration of project + 6 months
+			- Data that can be shared openly
+			- Experience using programming languages for data analysis: R, Python, Julia, JavaScript
+				- basic, has learned it at some point, might use it every now and then for personal projects
+				- everything but a complete novice
+			- Experience using a programming ide
+				- VS Code
+				- RStudio IDE
+				- Positron IDE
+				- others
+			- Advantagous
+				- previously participated in ETH Library RDM summer school
+	- 5 workshops
+		- 2 * 4 hour: fair data sharing (GHE workflow, using packaged data) and data management
+			- ongoing support hours
+			- new material, but based on existing experience and knowledge of GHE and FAIRqual project
+		- 1 * 4 hour: Git & GitHub / GitLab collaborative workflows
+		- 1 * 4 hour: GitHub for Task and project management
+		- 1 * 8 hour: Agentic workflows for data management
+		- 1 day workshop
+			- Organisational change for Open Science by Greg Wilson
+		- regular events
+			- bi-monthly AI playground events
+				- already ongoing at GHE and open to anyone, also people beyond GHE
+			- quarterly 2-hour hands-on project team member meetings
+	- technology stack
+		- ETH native, but also open and transferable
+			- Git
+			- ETH Gitlab
+			- GitHub
+			- Zenodo
+			- Research Collection
+		- Claude Code
+		- Coding
+	- methods
+		- Matrix Element channel for live support and community building
+			- links also into AI playground channel
+			- ETH already has this, everyone can login with their details
+		- hands-on implementation of ETH RDM guidelines with real data of participants.
+			- allows for a practical test of the ETH RDM guidelines and an opportunity to provide feedback to ETH library
+		- team work to practice collaborative workflows with Git / GitHub / GitLab
+	- Budget
+		- Overview
+			- Program fee: 15 * 2000 =30000
+			- Organizational change for Open Science: 2500 + 1500 + 1000 + 1500 =6’500
+				- Honorary: 2500
+				- Travel cost: 1500
+				- 3 nights in Zurich: 1000
+				- Villa Hatt: 1500
+			- Workshops: 480 + 1920 + 1500 =3’900
+				- Each workshop at ETH
+					- Catering: 16 * 30 = 480
+					- 4 workshops: 4 * 480 =1’920
+				- Workshop at Villa Hatt
+					- 1500
+			- Software
+				- Anthropic Claude Code Pro subscription
+					- 15 * 100 =1’500 * 6 = 9’000
+			- Total
+				- 30000 + 6500 + 3900 + 9000 =49’400
+		- Payments
+			- 15 participants each pay 2000 CHF for the entire program (all inclusive)
+			- The total sum of 30000 CHF goes to GHE who receives the money as payment for providing the training
+			- Financial flow could be simplified if GHE receives money directly from the program instead of going through each participants group
+		- Strategy for participants identification
+			- Buy-in of 15 participants at the time of submission of project proposal
+		- instructor team
+			- GHE Open Science Team
+				- Adriana Clavijo
+					- Team member since April 2025
+					- Part of ETH Library Data Stewardship Network
+					- Background
+					- Experience
+						- Supported ds4owd: 150 participants, weekly student hours, direct support through issues on assignments and final capstone project
+						- Hosted data science flipped
+					- Qualifications
+						- Data Science MSc
+						- Cynkra
+						- The Carpentries certified instructor
+				- Lars Schöbitz
+-
