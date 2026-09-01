@@ -1,8 +1,30 @@
-# FAIR Competence Funding (2nd call): proposal draft
+---
+title: "FAIR by doing"
+subtitle: "A hands-on programme that trains ETH researchers to make their own research data FAIR"
+author:
+  - name: "Lars Schöbitz"
+    affiliation: "Global Health Engineering, D-MAVT, ETH Zurich"
+    email: "lschoebitz@ethz.ch"
+  - name: "Adriana Clavijo"
+    affiliation: "Global Health Engineering, D-MAVT, ETH Zurich"
+date: "2026-09-01"
+format:
+  docx:
+    toc: false
+    number-sections: false
+    # reference-doc: reference.docx  # optional: point at a style template to inherit fonts/styles
+lang: en-GB
+---
 
-Working draft for the ETH FAIR Competence Funding, 2nd call. Due Tuesday 15 September 2026, 17:00 CET, as PDF to [openscience\@sl.ethz.ch](mailto:openscience@sl.ethz.ch){.email}, using the official template. This draft maps one to one onto the template sections so the text can be pasted into the DOCX. Guiding questions are removed, as the template instructs. Notes to us are marked `[TODO]` and must be deleted before submission.
+<!--
+FAIR Competence Funding, 2nd call. Due Tuesday 15 September 2026, 17:00 CET,
+as PDF to openscience@sl.ethz.ch, using the official template. This draft maps
+one to one onto the template sections so the text can be pasted into the DOCX.
+Guiding questions are removed, as the template instructs. Notes to us are marked
+[TODO] and must be deleted before submission.
 
-Draft date: 2026-09-01. Applicants: Lars Schöbitz (corresponding), Adriana Clavijo (co-applicant), Global Health Engineering, D-MAVT.
+Render with: quarto render proposal.qmd
+-->
 
 ------------------------------------------------------------------------
 
@@ -10,7 +32,7 @@ Draft date: 2026-09-01. Applicants: Lars Schöbitz (corresponding), Adriana Clav
 
 - Title of project: FAIR by doing: a hands-on programme that trains ETH researchers to make their own research data FAIR
 - Project summary: see below
-- Corresponding applicant: Lars Schöbitz, Open Science Specialist, Global Health Engineering, D-MAVT, CLD D 13, Clausiusstrasse 37, 8092 Zürich, [lschoebitz\@ethz.ch](mailto:lschoebitz@ethz.ch){.email}
+- Corresponding applicant: Lars Schöbitz, Open Science Specialist, Global Health Engineering, D-MAVT, CLD D 13, Clausiusstrasse 37, 8092 Zürich, lschoebitz@ethz.ch
 - Co-applicant: Adriana Clavijo, Scientific Assistant, Global Health Engineering, D-MAVT, aclavijo@ethz.ch [TODO verify Adriana's exact ETH email username; aclavijo@ethz.ch is assumed, not confirmed]
 - Supporting research unit 1: [TODO fill in: head of unit, contact details, email. The direct superior's support letter must come from this unit.]
 - Supporting research unit 2: [TODO fill in: second supporting unit head, contact details, email]
@@ -121,7 +143,7 @@ Early-stage proposals have been shared with the ETH Library (Julian Dederke) and
 
 - Recruitment risk: the programme needs at least fifteen committed participants at submission. Mitigation: A signed commitment sheet and the cohort design allows more doctoral students to replace senior staff if the senior places do not fill.
 - Drop-out risk: researchers work on unpredictable schedules and availability may change over the course of the year, which increases the risk of drop-out. Mitigation: Workshops will be recorded to allow researchers to listen to the taught elements and follow along with the practical exercises. Dates will be confirmed early, so that calendar conflicts are less likely. The overall expectation on individual work in between workshops will be kept to a small and manageable amount, while allowing those that want to invest more the opportunity to do so.
-- Financial and eligibility risk: the CHF 30,000 participant-place cost must read as workshop-organisation cost, not as staff salary, because personnel costs are not eligible. Mitigation: the budget books the per-participant cost under conferences and workshop organisation (the cost of running the training for the fifteen), with no salary line and no subcontracting line, so it stays within the call's rules. This concept idea was shared with [openscience\@sl.ethz.ch](mailto:openscience@sl.ethz.ch){.email} in it's early stages and considered appropriate.
+- Financial and eligibility risk: the CHF 30,000 participant-place cost must read as workshop-organisation cost, not as staff salary, because personnel costs are not eligible. Mitigation: the budget books the per-participant cost under conferences and workshop organisation (the cost of running the training for the fifteen), with no salary line and no subcontracting line, so it stays within the call's rules. This concept idea was shared with openscience@sl.ethz.ch in it's early stages and considered appropriate.
 - Delivery-capacity risk: two people deliver a year-long programme. Mitigation: the workshop material largely exists, the cohort supports itself, and the AI playground and Matrix channel spread the support load.
 
 Dependencies: ETH GitLab, GitHub, the ETH Research Collection, Zenodo, Villa Hatt availability, and Greg Wilson's availability for the organisational-change workshop. All are either standing ETH infrastructure or confirmable in WP1.
