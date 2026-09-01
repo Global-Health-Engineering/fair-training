@@ -59,22 +59,24 @@ Subject: Make your research data FAIR: a hands-on ETH programme, places open now
 
 Hi [name],
 
-We are putting together a twelve-month, hands-on programme at ETH that helps researchers make their own research data FAIR (Findable, Accessible, Interoperable, Reusable). Over five workshops and ongoing support, you bring one of your own datasets and leave with it published as a citable data package with a DOI, plus practical skills in Git and GitHub, project management, and AI-assisted workflows for data.
+We are putting together a twelve-month, hands-on programme at ETH that helps researchers make their own research data FAIR (Findable, Accessible, Interoperable, Reusable). Over five workshops and ongoing support, you bring your own datasets and leave with it published as a citable data package with a DOI, plus practical skills in Git and GitHub, project management, and AI-assisted workflows for data.
 
-It is delivered by the Global Health Engineering Open Science Team, who have trained more than 150 people to publish open data through openwashdata and the ds4owd course.
+It is delivered by the Global Health Engineering Open Science Team, who have trained more than 150 people to publish open data through openwashdata and the "data science for openwashdata" online course. As embedded full-time data stewards, we understand the day-to-day needs of researchers, and therefore well suited to provide such a training.
 
-The programme is funded through the ETH FAIR Competence Funding, so the place is paid for if the grant is approved. We need to include committed participants in the proposal, which is due on 15 September.
+If funded, the programme is supported through the ETH FAIR Competence Funding, so the place is paid for if the grant is approved. We need to include committed participants in the proposal, which is due on 15 September.
 
 It fits you if you:
 
 - are employed at ETH for the next year or so,
-- have a dataset from your own work that you could make open,
-- have used a programming language for data analysis at some point (R, Python, Julia, or JavaScript), and
+- have at least one dataset from your own work that you could make open,
+- have used a programming language for data analysis at some point (R, Python, Julia, or JavaScript) to write some lines of code for your own use (rank 1 out of a 4-rank competency scale), and
 - have used a programming editor (VS Code, RStudio, Positron, or similar).
 
-If you are interested, reply by [date] and I will send you a short one-page commitment sheet. Happy to answer any questions first.
+If you are interested, reply by Monday, 7 September and I will send you a short one-page commitment sheet.
 
-Best, Lars
+Best
+
+Lars
 
 [TODO fill the reply-by date. Decide whether to send from Lars alone or Lars and Adriana together. Add the German version if any target contacts prefer German.]
 
