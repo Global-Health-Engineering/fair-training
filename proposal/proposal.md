@@ -11,9 +11,9 @@ Draft date: 2026-09-01. Applicants: Lars Schöbitz (corresponding), Adriana Clav
 - Title of project: FAIR by doing: a hands-on programme that trains ETH researchers to make their own research data FAIR
 - Project summary: see below
 - Corresponding applicant: Lars Schöbitz, Open Science Specialist, Global Health Engineering, D-MAVT, CLD D 13, Clausiusstrasse 37, 8092 Zürich, [lschoebitz\@ethz.ch](mailto:lschoebitz@ethz.ch){.email}
-- Co-applicant: Adriana Clavijo, Global Health Engineering, D-MAVT, [TODO email and title]
-- Supporting research unit 1: [TODO head of unit, contact details, email. The direct superior's support letter must come from here.]
-- Supporting research unit 2: [TODO second supporting unit head, contact details, email]
+- Co-applicant: Adriana Clavijo, Scientific Assistant, Global Health Engineering, D-MAVT, aclavijo@ethz.ch [TODO verify Adriana's exact ETH email username; aclavijo@ethz.ch is assumed, not confirmed]
+- Supporting research unit 1: [TODO fill in: head of unit, contact details, email. The direct superior's support letter must come from this unit.]
+- Supporting research unit 2: [TODO fill in: second supporting unit head, contact details, email]
 
 ### Project summary
 
@@ -74,7 +74,7 @@ Adriana is a member of the ETH Library Data Stewardship Network, which is the di
 
 The digital research assets in this project are the participants' own research datasets, together with the code, workflows, and documentation needed to make them FAIR. Each of the fifteen participants brings real datasets from their own work. Across a mixed cohort this covers tabular data, survey data, measurement and sensor data, and the qualitative data (interviews and recordings) that raise the hardest sharing questions.
 
-The gap of applying FAIR data practices is practical in nature. Conceptually, ETH researchers know the FAIR principles exist but often cannot apply them to their own data. A common reason are the time constraints that come with adopting new workflows, especially where data sharing (and computational reproducibility) currently isn't rewarded by the scientific community as much as publishing journal articles is. This 12-month programme allows researchers to adopt a new workflow alongside their existing practices and with it develop a strategy and convincing arguments for future data management. Spaced practice, hands-on activities, and personal relevance are amongst the most important teaching methods for successful training and motivated learners [TODO citation]. Our training is grounded in this.
+The gap of applying FAIR data practices is practical in nature. Conceptually, ETH researchers know the FAIR principles exist but often cannot apply them to their own data. A common reason are the time constraints that come with adopting new workflows, especially where data sharing (and computational reproducibility) currently isn't rewarded by the scientific community as much as publishing journal articles is. This 12-month programme allows researchers to adopt a new workflow alongside their existing practices and with it develop a strategy and convincing arguments for future data management. The programme is grounded in established teaching methods for successful training and motivated learners, such as spaced practice, hands-on activities, and personal relevance to the learner's own work.
 
 The target community is ETH researchers who already hold, or are moving into, responsibility for research data management in their group or role, drawn deliberately from several departments, career stages, and disciplines. This is the professionalisation angle of the ETH Domain Measure 5 work on career paths for open research data professionals: rather than introducing beginners to the basics, the programme upskills people who already carry RDM responsibility, and doctoral students are increasingly the ones who carry it in practice. Ideally, the planned cohort mixes one or two professors, two or three senior scientists or postdocs, seven doctoral students, and two or three scientific or technical staff. A mixed cohort is the point, because it lets the programme treat FAIR data sharing as something that differs by community and by data type, rather than as one generic skill set. From this experience, the programme will produce recommendations specific to those communities, highlighting differences and commonalities.
 
@@ -148,7 +148,7 @@ Total requested from FAIR Competence Funding: CHF 49,400. This is under the CHF 
 
 | Cost category | Amount (CHF) |
 |----|----|
-| Applicant training and education | 0 [TODO see note below] |
+| Applicant training and education | 0 |
 | Travel | 0 |
 | Equipment (software: Claude Code, 15 seats x 6 months x 100) | 9,000 |
 | Publications | 0 |
@@ -174,4 +174,4 @@ The organisational-change workshop (CHF 6,500) covers the delivery of a full-day
 
 The workshop catering and venue (CHF 3,900) covers running the five workshops: catering for four ETH-based workshops and the Villa Hatt venue for the organisational-change workshop.
 
-The software line (CHF 9,000) covers fifteen Claude Code seats for six months, at CHF 100 per seat per month, for the agentic-workflow workshop and the hands-on data-management work following it. The tool is central to the eight-hour agentic-workflow workshop and to the support work between sessions. Its operating cost is covered only to the end of the project, as the annex allows for a project tool. [TODO justify non-duplication: state clearly that ETH does not currently provide this agentic coding tool at this scale to these researchers, so it does not duplicate an existing ETH service. If ETH IT does provide an equivalent, this line is at risk and should be reconsidered.]
+The software line (CHF 9,000) covers fifteen Claude Code seats for six months, at CHF 100 per seat per month, for the agentic-workflow workshop and the hands-on data-management work following it. The tool is central to the eight-hour agentic-workflow workshop and to the support work between sessions. Its operating cost is covered only to the end of the project, as the annex allows for a project tool. ETH Zurich does not currently provide Claude Code, or an equivalent agentic coding tool, at this scale to these researchers, so this line does not duplicate an existing ETH service; it equips the cohort for the hands-on agentic-workflow training that is central to the programme. [TODO verify against ETH IT's current offering before submission: if ETH IT provides an equivalent agentic coding tool to these researchers, this line is at risk and should be reconsidered.]
