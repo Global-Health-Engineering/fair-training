@@ -15,5 +15,5 @@ The proposed programme is built on a data-management workflow that Lars Schöbit
 
 ## Upcoming and submitted
 
-- Swiss Research Data Conference (RDC 2026, November 2026): presents "Embedded data stewardship and research intelligence: five years of practice at a research group at ETH Zurich" (with Colin Walder and Adriana Clavijo), and hosts a hands-on "Git for Scientists" workshop.
+- Swiss Research Data Conference (RDC 2026, November 2026): presents "Embedded data stewardship and research intelligence: five years of practice at a research group at ETH Zurich" (with Colin Walder and Adriana Clavijo Daza), and hosts a hands-on "Git for Scientists" workshop.
 - EnhanceR Symposium 2026 ("AI in Scientific Coding Workflows", 30 November 2026, Paul Scherrer Institute): submitted talk "Teaching Git, GitHub, and coding agents to researchers who do not come from IT". The audience is Swiss research IT specialists, research software engineers, data stewards, and RDM experts. The talk turns the challenge of teaching Git, GitHub, and coding agents to non-IT-native researchers into a teaching method, and treats transparency and disclosure of AI use as a first-class topic, which is the same thread this programme carries.
