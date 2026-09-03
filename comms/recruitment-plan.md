@@ -2,7 +2,7 @@
 
 Goal: fifteen ETH researchers signed up with a commitment sheet before the proposal is submitted on 15 September 2026, 17:00 CET. The signed list is a submission attachment and it is the strongest evidence for section 2.5 (a real, named target community).
 
-Draft date: 2026-09-01. Owner: Lars Schöbitz, with Adriana Clavijo.
+Draft date: 2026-09-01. Owner: Lars Schöbitz, with Adriana Clavijo Daza.
 
 ## The constraint
 

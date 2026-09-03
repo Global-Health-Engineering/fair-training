@@ -7,7 +7,7 @@
 ## The basics
 
 - **Call:** ETH FAIR Competence Funding, 2nd call. Due 15 September 2026.
-- **Applicants:** Lars Schöbitz (corresponding) and Adriana Clavijo, Global Health Engineering, D-MAVT.
+- **Applicants:** Lars Schöbitz (corresponding) and Adriana Clavijo Daza, Global Health Engineering, D-MAVT.
 - **Budget requested:** CHF 49,400 (under the CHF 50,000 cap), all direct cost, no salary line.
 - **Duration:** 12 months, starting January or February 2027.
 

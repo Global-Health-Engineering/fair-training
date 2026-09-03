@@ -17,9 +17,9 @@ The 30,000 CHF program fee goes to GHE as payment for delivering the training. T
 
 Next steps
 
-We aim to secure buy-in from 15 participants at the time of submission. The instructor team would be the GHE Open Science Team, including Adriana Clavijo and Lars Schöbitz.
+We aim to secure buy-in from 15 participants at the time of submission. The instructor team would be the GHE Open Science Team, including Adriana Clavijo Daza and Lars Schöbitz.
 
-We aim to secure buy-in from 15 participants at the time of submission. The instructor team would be the GHE Open Science Team, including Adriana Clavijo and Lars Schöbitz.
+We aim to secure buy-in from 15 participants at the time of submission. The instructor team would be the GHE Open Science Team, including Adriana Clavijo Daza and Lars Schöbitz.
 
 I'd welcome a short conversation on whether this fits and what would strengthen the proposal.
 
