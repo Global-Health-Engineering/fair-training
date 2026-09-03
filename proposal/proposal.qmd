@@ -7,6 +7,7 @@ author:
     email: "lschoebitz@ethz.ch"
   - name: "Adriana Clavijo Daza"
     affiliation: "Global Health Engineering, D-MAVT, ETH Zurich"
+    email: "aclavijo@ethz.ch"
 date: "2026-09-01"
 format:
   docx:
@@ -33,7 +34,7 @@ Render with: quarto render proposal.qmd
 - Title of project: FAIR by doing: a hands-on programme that trains ETH researchers to make their own research data FAIR
 - Project summary: see below
 - Corresponding applicant: Lars Schöbitz, Open Science Specialist, Global Health Engineering, D-MAVT, CLD D 13, Clausiusstrasse 37, 8092 Zürich, lschoebitz@ethz.ch
-- Co-applicant: Adriana Clavijo Daza, Scientific Assistant, Global Health Engineering, D-MAVT, aclavijo@ethz.ch [TODO verify Adriana's exact ETH email username; aclavijo@ethz.ch is assumed, not confirmed]
+- Co-applicant: Adriana Clavijo Daza, Scientific Assistant, Global Health Engineering, D-MAVT, aclavijo@ethz.ch
 - Supporting research unit 1: [TODO fill in: head of unit, contact details, email. The direct superior's support letter must come from this unit.]
 - Supporting research unit 2: [TODO fill in: second supporting unit head, contact details, email]
 
@@ -80,11 +81,17 @@ The team's prior work also shows this approach already runs at ETH. Earlier gitf
 
 ### 1.1 Adriana Clavijo Daza: work related to research, RDM, RSE, ORD, and the FAIR principles
 
-Adriana Clavijo Daza is a member of the Global Health Engineering Open Science Team, where she has worked since April 2025. She holds an MSc in Data Science and is a Carpentries-certified instructor. Before ETH she worked at cynkra, a data-science consultancy, on applied data projects. As a Scientific Assistant, Adriana supports the supervision of PhDs, develops data packages for the openwashdata community and engages with learners that need more support than others to work through our offers to the openwashdata community. Our teaching philosophy is focused on novices and providing a safe environment for failing.
+Adriana Clavijo Daza has been a member of the Global Health Engineering Open Science Team since June 2025 and an active contributor of the openwashdata community. She holds an MSc in Statistics and Data Science and is a Carpentries-certified instructor. Before joining ETH, she worked as a statistician and data scientist for public and private institutions in Colombia, as well as for a non-profit and a consultancy firm in Switzerland. 
+
+As a Scientific Assistant, Adriana supports the supervision of PhD students by advising on data management and reproducible workflows, develops and maintains R data packages that publish WASH datasets in a documented, reusable form for the openwashdata community and Global Health Engineering. She co-developed and maintains an R package for the openwashdata community that turns a tidy dataset into a documented, installable, citable R package with an accompanying website, substantially lowering the technical barrier to publishing research data in FAIR-compliant form.
+
+As an instructor, she engages with learners, particularly those who need more support in working through the community's offerings. Her teaching training experience focuses on novices and on creating a safe environment in which to fail.
 
 ### 1.2 Adriana Clavijo Daza: ongoing RDM/RSE activities at ETH Zurich
 
-Adriana is a member of the ETH Library Data Stewardship Network, which is the direct link between this project and the DSN that the call asks applicants to support. She supported the ds4owd course, which trained more than 150 participants, through weekly student hours and direct support on assignments and the capstone project. She hosted the data science flipped sessions at Global Health Engineering were we used our recorded 10-week, 20-hour online course and participants watched the recordings, then worked hands-on with Adriana in additional training sessions with assignments.
+Adriana is a member of the ETH Library Data Stewardship Network, providing a direct link between this project and the DSN that the call asks applicants to support. Her RDM and RSE work at ETH spans training, advising, and software development. She supported the ds4owd course, which trained more than 150 participants, through weekly student hours, direct assistance with assignments, and personalised guidance on the final project. She also hosted data science flipped-classroom sessions with PhD students from Global Health Engineering and Food Systems Economics and Policy, built around the recordings of the ten-week ds4owd course: participants watched the recordings and completed the assignments on their own, then worked hands-on with Adriana in additional training sessions with supplementary exercises. 
+
+She also collaborates with PhD students at Global Health Engineering, advising them on the selection of appropriate statistical methods for their data analysis, with a particular focus on reproducibility and transparent research practices with R, Git, GitHub and Quarto. In addition, she contributed a talk on Open Research Data to the D-MAVT course Ethics and Scientific Integrity for Doctoral Students, introducing participants to the principles and practical aspects of sharing research data.
 
 ------------------------------------------------------------------------
 
