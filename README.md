@@ -6,7 +6,7 @@ Application materials for **FAIR by doing**, a proposal to the ETH FAIR Competen
 
 The ETH FAIR Competence Funding supports projects that build FAIR (Findable, Accessible, Interoperable, Reusable) competence at ETH Zurich and strengthen the ETH Data Stewardship Network (DSN). This is the 2nd call.
 
-- **Applicants:** Lars Schöbitz (corresponding) and Adriana Clavijo, Global Health Engineering, D-MAVT.
+- **Applicants:** Lars Schöbitz (corresponding) and Adriana Clavijo Daza, Global Health Engineering, D-MAVT.
 - **Due:** 15 September 2026, 17:00 CET, submitted as a PDF to openscience@sl.ethz.ch using the official template.
 - **Funding cap:** CHF 50,000. This proposal requests CHF 49,400, all direct cost.
 - **Duration:** 12 months, starting January or February 2027.

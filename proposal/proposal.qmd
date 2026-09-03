@@ -5,7 +5,7 @@ author:
   - name: "Lars Schöbitz"
     affiliation: "Global Health Engineering, D-MAVT, ETH Zurich"
     email: "lschoebitz@ethz.ch"
-  - name: "Adriana Clavijo"
+  - name: "Adriana Clavijo Daza"
     affiliation: "Global Health Engineering, D-MAVT, ETH Zurich"
 date: "2026-09-01"
 format:
@@ -33,7 +33,7 @@ Render with: quarto render proposal.qmd
 - Title of project: FAIR by doing: a hands-on programme that trains ETH researchers to make their own research data FAIR
 - Project summary: see below
 - Corresponding applicant: Lars Schöbitz, Open Science Specialist, Global Health Engineering, D-MAVT, CLD D 13, Clausiusstrasse 37, 8092 Zürich, lschoebitz@ethz.ch
-- Co-applicant: Adriana Clavijo, Scientific Assistant, Global Health Engineering, D-MAVT, aclavijo@ethz.ch [TODO verify Adriana's exact ETH email username; aclavijo@ethz.ch is assumed, not confirmed]
+- Co-applicant: Adriana Clavijo Daza, Scientific Assistant, Global Health Engineering, D-MAVT, aclavijo@ethz.ch [TODO verify Adriana's exact ETH email username; aclavijo@ethz.ch is assumed, not confirmed]
 - Supporting research unit 1: [TODO fill in: head of unit, contact details, email. The direct superior's support letter must come from this unit.]
 - Supporting research unit 2: [TODO fill in: second supporting unit head, contact details, email]
 
@@ -78,11 +78,11 @@ His employment at Global Health Engineering is permanent and runs for the full p
 
 The team's prior work also shows this approach already runs at ETH. Earlier gitforsci and agentsforsci workshops, supported by the DSN and SwissRN, produced training material that this programme reuses, further refines, and builds on. As significant training will be in the area of using agentic AI programming, the material stays up to date with current trends and aims to contribute to the global conversation on declaration of AI in research.
 
-### 1.1 Adriana Clavijo: work related to research, RDM, RSE, ORD, and the FAIR principles
+### 1.1 Adriana Clavijo Daza: work related to research, RDM, RSE, ORD, and the FAIR principles
 
-Adriana Clavijo is a member of the Global Health Engineering Open Science Team, where she has worked since April 2025. She holds an MSc in Data Science and is a Carpentries-certified instructor. Before ETH she worked at cynkra, a data-science consultancy, on applied data projects. As a Scientific Assistant, Adriana supports the supervision of PhDs, develops data packages for the openwashdata community and engages with learners that need more support than others to work through our offers to the openwashdata community. Our teaching philosophy is focused on novices and providing a safe environment for failing.
+Adriana Clavijo Daza is a member of the Global Health Engineering Open Science Team, where she has worked since April 2025. She holds an MSc in Data Science and is a Carpentries-certified instructor. Before ETH she worked at cynkra, a data-science consultancy, on applied data projects. As a Scientific Assistant, Adriana supports the supervision of PhDs, develops data packages for the openwashdata community and engages with learners that need more support than others to work through our offers to the openwashdata community. Our teaching philosophy is focused on novices and providing a safe environment for failing.
 
-### 1.2 Adriana Clavijo: ongoing RDM/RSE activities at ETH Zurich
+### 1.2 Adriana Clavijo Daza: ongoing RDM/RSE activities at ETH Zurich
 
 Adriana is a member of the ETH Library Data Stewardship Network, which is the direct link between this project and the DSN that the call asks applicants to support. She supported the ds4owd course, which trained more than 150 participants, through weekly student hours and direct support on assignments and the capstone project. She hosted the data science flipped sessions at Global Health Engineering were we used our recorded 10-week, 20-hour online course and participants watched the recordings, then worked hands-on with Adriana in additional training sessions with assignments.
 
@@ -106,7 +106,7 @@ The innovative part of the programme is that participants make their own data FA
 
 A second innovative aspect runs through the whole year: the declaration of AI use in research. As participants use agentic AI workflows on their own data, the programme treats how to disclose that use as an open question in research integrity and develops practical answers with fifteen real researchers. This connects directly to Lars's contribution to the GFRN AI Disclosure Working Group. The programme explores how to document a provenance trail for AI use, from Git commits that make each AI-assisted change visible and reversible, to experimental tools such as re_gent that record which agent step and which prompt produced each change.
 
-The applicants' own training and competence development is a funded part of the project. Lars Schöbitz and Adriana Clavijo will deepen their skills in two areas that the programme depends on: agentic AI workflows for data management, and the organisational-change methods needed to embed open-science practice in research groups. The organisational-change workshop, delivered by Greg Wilson (author of "Organisational Change for Open Science"), trains the applicants and the cohort together, and the applicants carry the method into later cohorts and into their DSN and community work.
+The applicants' own training and competence development is a funded part of the project. Lars Schöbitz and Adriana Clavijo Daza will deepen their skills in two areas that the programme depends on: agentic AI workflows for data management, and the organisational-change methods needed to embed open-science practice in research groups. The organisational-change workshop, delivered by Greg Wilson (author of "Organisational Change for Open Science"), trains the applicants and the cohort together, and the applicants carry the method into later cohorts and into their DSN and community work.
 
 The programme develops a reusable teaching service and builds a larger community around these practices. The five workshops, the participant's data-package pipeline, and the supporting materials become a repeatable offering that Global Health Engineering can run for further ETH cohorts after the project. The five workshops are:
 
@@ -129,11 +129,11 @@ The programme also produces a research output. The fifteen participants are both
 The programme runs over twelve months in four work packages.
 
 - WP1, Setup and recruitment (months 1 to 2). Confirm the fifteen participants from the pre-commited cohort and their signed commitments, collect each participant's dataset and a short data description, information on their overall experiences and competencies in RDM, set up the ETH GitLab and GitHub spaces and the Matrix channel, and finalise the workshop schedule. Deliverable: a confirmed cohort and a working programme environment. Lead: Lars Schöbitz.
-- WP2, Core workshops and data-package delivery (months 2 to 9). Run the five workshops and the support hours between them. Each participant produces published, FAIR data package from their own data. Deliverables: five workshops delivered, minimum fifteen data packages in progress, support logged through issues. Leads: Lars Schöbitz and Adriana Clavijo, with Greg Wilson for the organisational-change workshop.
-- WP3, Community building and outreach (months 1 to 12, running throughout). AI playground events, quarterly hands-on team meetings, and the Matrix support channel. Deliverable: an active cross-department community and a record of events. Lead: Adriana Clavijo.
+- WP2, Core workshops and data-package delivery (months 2 to 9). Run the five workshops and the support hours between them. Each participant produces published, FAIR data package from their own data. Deliverables: five workshops delivered, minimum fifteen data packages in progress, support logged through issues. Leads: Lars Schöbitz and Adriana Clavijo Daza, with Greg Wilson for the organisational-change workshop.
+- WP3, Community building and outreach (months 1 to 12, running throughout). AI playground events, quarterly hands-on team meetings, and the Matrix support channel. Deliverable: an active cross-department community and a record of events. Lead: Adriana Clavijo Daza.
 - WP4, Consolidation, sustainability, and reporting (months 10 to 12). Publish the final data packages, capture the programme as a reusable offering, feed lessons into the DSN, and write the final content and financial reports. Deliverables: minimum fifteen published FAIR data packages, a documented reusable programme, DSN contribution, a draft and flexible data management strategy for the participants research group, final project reports. Lead: Lars Schöbitz.
 
-Roles: Lars Schöbitz is corresponding applicant and budget manager, and leads WP1, WP2, and WP4. Adriana Clavijo co-delivers WP2 and leads WP3 and the DSN link. Greg Wilson delivers the organisational-change workshop under WP2. Tools and technologies are ETH-native and transferable: ETH GitLab, GitHub, Zenodo, the ETH Research Collection, Matrix (Element), R, and Anthropic Claude Code.
+Roles: Lars Schöbitz is corresponding applicant and budget manager, and leads WP1, WP2, and WP4. Adriana Clavijo Daza co-delivers WP2 and leads WP3 and the DSN link. Greg Wilson delivers the organisational-change workshop under WP2. Tools and technologies are ETH-native and transferable: ETH GitLab, GitHub, Zenodo, the ETH Research Collection, Matrix (Element), R, and Anthropic Claude Code.
 
 ### 2.4 Feasibility and risk assessment
 
@@ -156,7 +156,7 @@ The direct benefit for research and teaching is fifteen published, FAIR, citable
 
 Institutional responsibility for continuation sits with the Global Health Engineering Open Science Team, which already runs ORD, RDM, FAIR and AI training as standing activities. The sustainable model is the per-participant fee. This grant funds the first cohort at CHF 2,000 per place and lets the team build and test the programme. After the project, later cohorts could fund their own delivery through the same CHF 2,000 fee paid by participants or their groups, potentially cross-subsidised through the FAIR Coalition, so the programme does not depend on repeat grant funding.
 
-The project contributes to the ETH Data Stewardship Network directly. Adriana Clavijo is a DSN member, the applicants will sign the FAIR Coalition Charter, and the programme feeds its materials, its data-package workflow, and its lessons on community-specific FAIR practice back into the DSN. The programme also gives the ETH Library a practical test of the ETH RDM guidelines against real researcher data, with feedback returned to the Library.
+The project contributes to the ETH Data Stewardship Network directly. Adriana Clavijo Daza is a DSN member, the applicants will sign the FAIR Coalition Charter, and the programme feeds its materials, its data-package workflow, and its lessons on community-specific FAIR practice back into the DSN. The programme also gives the ETH Library a practical test of the ETH RDM guidelines against real researcher data, with feedback returned to the Library.
 
 ------------------------------------------------------------------------
 

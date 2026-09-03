@@ -74,7 +74,7 @@
 			- Buy-in of 15 participants at the time of submission of project proposal
 		- instructor team
 			- GHE Open Science Team
-				- Adriana Clavijo
+				- Adriana Clavijo Daza
 					- Team member since April 2025
 					- Part of ETH Library Data Stewardship Network
 					- Background
