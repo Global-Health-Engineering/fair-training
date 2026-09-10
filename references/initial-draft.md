@@ -75,15 +75,15 @@
 		- instructor team
 			- GHE Open Science Team
 				- Adriana Clavijo Daza
-					- Team member since April 2025
+					- Team member since June 2025
 					- Part of ETH Library Data Stewardship Network
 					- Background
 					- Experience
 						- Supported ds4owd: 150 participants, weekly student hours, direct support through issues on assignments and final capstone project
 						- Hosted data science flipped
 					- Qualifications
-						- Data Science MSc
-						- Cynkra
+						- Statistics and Data Science MSc
+						- Statistician and data scientist for public and private institutions in Colombia, and for a non-profit and a consultancy firm in Switzerland
 						- The Carpentries certified instructor
 				- Lars Schöbitz
 -

@@ -1,6 +1,6 @@
 ---
 title: "FAIR by doing"
-subtitle: "A hands-on programme that trains ETH researchers to make their own research data FAIR"
+subtitle: "A hands-on programme that trains ETH researchers to make their own research data FAIR in the era of agentic AI tools"
 author:
   - name: "Lars Schöbitz"
     affiliation: "Global Health Engineering, D-MAVT, ETH Zurich"
@@ -31,7 +31,7 @@ Render with: quarto render proposal.qmd
 
 ## Proposal submission (header block)
 
-- Title of project: FAIR by doing: a hands-on programme that trains ETH researchers to make their own research data FAIR
+- Title of project: FAIR by doing: a hands-on programme that trains ETH researchers to make their own research data FAIR in the era of agentic AI tools
 - Project summary: see below
 - Corresponding applicant: Lars Schöbitz, Open Science Specialist, Global Health Engineering, D-MAVT, CLD D 13, Clausiusstrasse 37, 8092 Zürich, lschoebitz@ethz.ch
 - Co-applicant: Adriana Clavijo Daza, Scientific Assistant, Global Health Engineering, D-MAVT, aclavijo@ethz.ch
@@ -40,9 +40,9 @@ Render with: quarto render proposal.qmd
 
 ### Project summary
 
-[TODO keep to about 150 words in the DOCX. Draft below.]
+[TODO keep to about 150 words in the DOCX. Draft below is 151 words; recount after the final edits.]
 
-Prepared once the proposal has reached a more final state.
+FAIR by doing is a twelve-month programme that trains fifteen ETH researchers to make their own research data FAIR in the era of agentic AI tools. Each participant brings a dataset from their own work and leaves with it published as a citable data package with a DOI, plus a workflow they can repeat on the rest of their data. Five workshops (28 hours) cover FAIR data sharing and management, Git and GitHub or GitLab, project management, agentic AI workflows for data, and organisational change for open science. Researchers who use agentic AI tools get more out of well documented data, and they face the question of how to declare AI use and show what they still produced themselves. The programme works out practical answers with the cohort. The cohort is mixed by department, career stage, and discipline, so the applicants also derive recommendations on how FAIR practice differs between communities.
 
 ------------------------------------------------------------------------
 
@@ -103,15 +103,17 @@ She also collaborates with PhD students at Global Health Engineering, advising t
 
 The digital research assets in this project are the participants' own research datasets, together with the code, workflows, and documentation needed to make them FAIR. Each of the fifteen participants brings real datasets from their own work. Across a mixed cohort this covers tabular data, survey data, measurement and sensor data, and the qualitative data (interviews and recordings) that raise the hardest sharing questions.
 
+Agentic AI tools give ETH researchers a second reason to make these assets FAIR. An agent that cleans, analyses, or reuses a dataset depends on the same documentation a human colleague needs, e.g., a data dictionary that states what each variable means. Researchers who document their data well can hand routine work to an agent and check the result. Researchers who do not document their data cannot. Agents also produce code and text that end up in research outputs, so researchers need a way to declare AI use that goes beyond ticking a box and shows what they still produced themselves. The programme treats both as part of making data FAIR today. Participants use agentic AI tools on their own data during the programme, and the declaration of AI use runs as a thread through the whole year (section 2.2).
+
 The gap of applying FAIR data practices is practical in nature. Conceptually, ETH researchers know the FAIR principles exist but often cannot apply them to their own data. A common reason are the time constraints that come with adopting new workflows, especially where data sharing (and computational reproducibility) currently isn't rewarded by the scientific community as much as publishing journal articles is. This 12-month programme allows researchers to adopt a new workflow alongside their existing practices and with it develop a strategy and convincing arguments for future data management. The programme is grounded in established teaching methods for successful training and motivated learners, such as spaced practice, hands-on activities, and personal relevance to the learner's own work.
 
-The target community is ETH researchers who already hold, or are moving into, responsibility for research data management in their group or role, drawn deliberately from several departments, career stages, and disciplines. This is the professionalisation angle of the ETH Domain Measure 5 work on career paths for open research data professionals: rather than introducing beginners to the basics, the programme upskills people who already carry RDM responsibility, and doctoral students are increasingly the ones who carry it in practice. Ideally, the planned cohort mixes one or two professors, two or three senior scientists or postdocs, seven doctoral students, and two or three scientific or technical staff. A mixed cohort is the point, because it lets the programme treat FAIR data sharing as something that differs by community and by data type, rather than as one generic skill set. From this experience, the programme will produce recommendations specific to those communities, highlighting differences and commonalities.
+The target community is ETH researchers who already hold, or are moving into, responsibility for research data management in their group or role, drawn deliberately from several departments, career stages, and disciplines. This is the professionalisation angle of the ETH Domain Measure 5 work on career paths for open research data professionals: rather than introducing beginners to the basics, the programme upskills people who already carry RDM responsibility, and doctoral students are increasingly the ones who carry it in practice. Ideally, the planned cohort mixes one or two professors, two or three senior scientists or postdocs, seven doctoral students, and two or three scientific or technical staff. Participants are also selected for curiosity about what agentic AI tools enable in their research, next to a dataset of their own and some coding experience. A mixed cohort is the point, because it lets the programme treat FAIR data sharing as something that differs by community and by data type, rather than as one generic skill set. From this experience, the programme will produce recommendations specific to those communities, highlighting differences and commonalities.
 
 ### 2.2 Specific effort that will be funded by this call
 
 The innovative part of the programme is that participants make their own data FAIR by doing it, with support, across a full year, rather than learning the principles in the abstract. Most FAIR and RDM training at ETH is delivered as short courses or one-off summer schools without directly working with participants' own data. This programme instead walks each participant from a raw file to a published, citable data package, then keeps supporting them while they apply the same workflow to the rest of their data.
 
-A second innovative aspect runs through the whole year: the declaration of AI use in research. As participants use agentic AI workflows on their own data, the programme treats how to disclose that use as an open question in research integrity and develops practical answers with fifteen real researchers. This connects directly to Lars's contribution to the GFRN AI Disclosure Working Group. The programme explores how to document a provenance trail for AI use, from Git commits that make each AI-assisted change visible and reversible, to experimental tools such as re_gent that record which agent step and which prompt produced each change.
+A second innovative aspect runs through the whole year: the declaration of AI use in research. As participants use agentic AI workflows on their own data, the programme treats how to disclose that use as an open question in research integrity and develops practical answers with fifteen real researchers. The question goes beyond ticking a box on a submission form. It asks how researchers show which parts of their work they produced themselves. This connects directly to Lars's contribution to the GFRN AI Disclosure Working Group. The programme explores how to document a provenance trail for AI use, from Git commits that make each AI-assisted change visible and reversible, to experimental tools such as re_gent that record which agent step and which prompt produced each change.
 
 The applicants' own training and competence development is a funded part of the project. Lars Schöbitz and Adriana Clavijo Daza will deepen their skills in two areas that the programme depends on: agentic AI workflows for data management, and the organisational-change methods needed to embed open-science practice in research groups. The organisational-change workshop, delivered by Greg Wilson (author of "Organisational Change for Open Science"), trains the applicants and the cohort together, and the applicants carry the method into later cohorts and into their DSN and community work.
 
@@ -159,7 +161,7 @@ Dependencies: ETH GitLab, GitHub, the ETH Research Collection, Zenodo, Villa Hat
 
 The project gives ETH a repeatable programme that turns researchers' own data into published, FAIR data packages, and it leaves that programme available after the funding ends. The new service is a tested, hands-on FAIR-implementation programme that Global Health Engineering can run for further ETH communities, distinct from the principle-level training the DSN and the RDM Summer School provide.
 
-The direct benefit for research and teaching is fifteen published, FAIR, citable data packages from fifteen ETH researchers across several departments, plus fifteen researchers who can repeat the workflow on the rest of their data and pass it to their groups. Because the cohort is mixed by discipline and method, the programme produces a small case study of how FAIR data sharing and data security differ between communities. All teaching material is published as Open Educational Resources, including handbooks on how to deliver the material most effectively.
+The direct benefit for research and teaching is fifteen published, FAIR, citable data packages from fifteen ETH researchers across several departments, plus fifteen researchers who can repeat the workflow on the rest of their data and pass it to their groups. Because the cohort is mixed by discipline and method, the programme produces a small case study of how FAIR data sharing, data security, and the declaration of AI use differ between communities. All teaching material is published as Open Educational Resources, including handbooks on how to deliver the material most effectively.
 
 Institutional responsibility for continuation sits with the Global Health Engineering Open Science Team, which already runs ORD, RDM, FAIR and AI training as standing activities. The sustainable model is the per-participant fee. This grant funds the first cohort at CHF 2,000 per place and lets the team build and test the programme. After the project, later cohorts could fund their own delivery through the same CHF 2,000 fee paid by participants or their groups, potentially cross-subsidised through the FAIR Coalition, so the programme does not depend on repeat grant funding.
 

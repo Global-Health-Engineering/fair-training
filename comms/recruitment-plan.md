@@ -2,7 +2,7 @@
 
 Goal: fifteen ETH researchers signed up with a commitment sheet before the proposal is submitted on 15 September 2026, 17:00 CET. The signed list is a submission attachment and it is the strongest evidence for section 2.5 (a real, named target community).
 
-Draft date: 2026-09-01. Owner: Lars Schöbitz, with Adriana Clavijo Daza.
+Draft date: 2026-09-01, emails revised 2026-09-03. Owner: Lars Schöbitz, with Adriana Clavijo Daza.
 
 ## The constraint
 
@@ -23,7 +23,7 @@ Entry expectations (state these in the teaser so people self-select):
 
 - Employed at ETH for the project duration.
 - A dataset from their own work that can be made open, or worked toward open.
-- Some experience with a programming language for data analysis (R, Python, Julia, or JavaScript). Not a complete beginner, but not an expert either. E.g. (rank 1: "has written lines of code for their own use" on a 4-rank scale)
+- Some experience with a programming language for data analysis (R, Python, Julia, JavaScript, Stata, SPSS, C++, or any other scripting language). Not a complete beginner, but not an expert either. E.g. (rank 1: "has written lines of code for their own use" on a 4-rank scale)
 - Some experience with a programming IDE (VS Code, RStudio, Positron, or similar).
 - Helpful but not required: previous ETH Library RDM Summer School attendance.
 
@@ -53,32 +53,116 @@ Sequence the channels: direct asks and GHE networks in the first few days, DSN a
 - Days 11 to 13: close the list at fifteen signed, lock the commitment sheet, and attach it to the proposal.
 - 15 September, before 17:00 CET: submit.
 
-## The teaser (ready to send this week, edit before sending)
+## The emails (edit before sending)
 
-Subject: Make your research data FAIR: a hands-on ETH programme, places open now
+Three versions. Emails 1 and 2 were revised 2026-09-03; email 3 is the group version in use from 2026-09-07. Email 1 goes to named people directly. Email 2 goes to someone who forwards it to a group, e.g., the RDM Summer School participants, the D-USYS Transdisciplinarity Lab, the Data Stewardship Network, or the RSE Network.
+
+Before sending, fill in the placeholders in square brackets and check the reply-by dates. Email 1 asks for a reply by Monday, 7 September. Email 2 asks for a reply by Wednesday, 9 September, two days later, because a forwarded mail lands later.
+
+[TODO decide whether email 1 is sent from Lars alone or from Lars and Adriana together. Add a German version if any target contacts prefer German. For the DSN, check the posting norms first.]
+
+### Email 1: personal direct ask
+
+Subject: FAIR by doing: a 12-month programme offer
 
 Hi [name],
 
-We are putting together a twelve-month, hands-on programme at ETH that helps researchers make their own research data FAIR (Findable, Accessible, Interoperable, Reusable). Over five workshops and ongoing support, you bring your own datasets and leave with it published as a citable data package with a DOI, plus practical skills in Git and GitHub, project management, and AI-assisted workflows for data.
+[One personal line on why I am writing to you, e.g., the dataset or project of theirs I have in mind.]
 
-It is delivered by the Global Health Engineering Open Science Team, who have trained more than 150 people to publish open data through openwashdata and the "data science for openwashdata" online course. As embedded full-time data stewards, we understand the day-to-day needs of researchers, and therefore well suited to provide such a training.
+We are putting together a twelve-month, hands-on programme at ETH that helps researchers make their own research data FAIR (Findable, Accessible, Interoperable, Reusable). You bring one of your own datasets and leave with it published as a citable data package with a DOI. Along the way you learn a workflow you can repeat on the rest of your data, with practical skills in Git and GitHub or GitLab, project management, and AI-assisted workflows for data.
 
-If funded, the programme is supported through the ETH FAIR Competence Funding, so the place is paid for if the grant is approved. We need to include committed participants in the proposal, which is due on 15 September.
+The programme starts in early 2027 and consists of five workshops (28 hours in total), a full-day workshop on organisational change for open science with Greg Wilson (provisionally confirmed), quarterly hands-on team meetings, and direct support between sessions. Adriana Clavijo Daza and I deliver it as the Global Health Engineering Open Science Team. We have trained more than 150 people to publish open data through openwashdata and the "data science for openwashdata" online course, and we work as embedded data stewards, so we know the day-to-day constraints researchers work under.
 
-It fits you if you:
+We are applying for the ETH FAIR Competence Funding to pay for the programme. If the grant is approved, your place (CHF 2,000) is covered and you pay nothing. The proposal is due on 15 September, and we need to name the committed participants in it.
+
+The programme fits you if you
 
 - are employed at ETH for the next year or so,
-- have at least one dataset from your own work that you could make open,
-- have used a programming language for data analysis at some point (R, Python, Julia, or JavaScript) to write some lines of code for your own use (rank 1 out of a 4-rank competency scale), and
-- have used a programming editor (VS Code, RStudio, Positron, or similar).
+- have at least one dataset from your own work that you could make open, or work toward making open, and
+- have written some lines of code for your own data analysis (R, Python, Julia, JavaScript, Stata, SPSS, C++, or any other scripting language).
 
-If you are interested, reply by Monday, 7 September and I will send you a short one-page commitment sheet.
+If you are interested, reply by end of **Monday, 7 September** and complete this form:
+
+<https://forms.gle/4ixnUafQKAq58NpX9>
+
+We will then send you a one-page commitment sheet. If you are unsure whether the programme fits, reply anyway and we can talk it through.
 
 Best
 
+Lars & Adriana
+
+### Email 2: cover note and text to forward
+
+Subject: Could you forward this to [group]? FAIR by doing, a hands-on ETH programme
+
+Hi [name],
+
+Adriana and I are applying for the ETH FAIR Competence Funding with a twelve-month, hands-on programme that helps ETH researchers make their own research data FAIR. The proposal is due on 15 September, and we need to name fifteen committed participants in it. Could you forward the text below to [group, e.g., the participants of last year's RDM Summer School]? Interested people fill in the form linked in the text, so there is no follow-up work for you.
+
+Thanks
+
 Lars
 
-[TODO fill the reply-by date. Decide whether to send from Lars alone or Lars and Adriana together. Add the German version if any target contacts prefer German.]
+----- text to forward -----
+
+Subject: FAIR by doing: a 12-month programme offer
+
+Dear colleagues,
+
+We, Adriana Clavijo Daza and Lars Schöbitz of the Global Health Engineering Open Science Team (D-MAVT), are putting together a twelve-month, hands-on programme at ETH that helps researchers make their own research data FAIR (Findable, Accessible, Interoperable, Reusable). You bring one of your own datasets and leave with it published as a citable data package with a DOI. Along the way you learn a workflow you can repeat on the rest of your data, with practical skills in Git and GitHub or GitLab, project management, and AI-assisted workflows for data.
+
+The programme starts in early 2027 and consists of five workshops (28 hours in total), a full-day workshop on organisational change for open science with Greg Wilson (provisionally confirmed), quarterly hands-on team meetings, and direct support between sessions. We have trained more than 150 people to publish open data through openwashdata and the "data science for openwashdata" online course, and we work as embedded data stewards, so we know the day-to-day constraints researchers work under.
+
+We are applying for the ETH FAIR Competence Funding to pay for the programme. If the grant is approved, your place (CHF 2,000) is covered and you pay nothing. The proposal is due on 15 September, and we need to name the committed participants in it.
+
+The programme fits you if you
+
+- are employed at ETH for the next year or so,
+- have at least one dataset from your own work that you could make open, or work toward making open, and
+- have written some lines of code for your own data analysis (R, Python, Julia, JavaScript, Stata, SPSS, C++, or any other scripting language).
+
+If you are interested, complete this form by end of **Wednesday, 9 September**:
+
+<https://forms.gle/4ixnUafQKAq58NpX9>
+
+We will then send you a one-page commitment sheet. If you are unsure whether the programme fits, email Lars Schöbitz ([lschoebitz\@ethz.ch](mailto:lschoebitz@ethz.ch){.email}) and we can talk it through.
+
+Best
+
+Lars Schöbitz and Adriana Clavijo Daza
+
+Global Health Engineering Open Science Team, D-MAVT, ETH Zurich
+
+### Email 3: group email as sent from 2026-09-07
+
+The version Lars sends to groups directly. It carries the agentic AI angle (curiosity about agentic AI as an entry expectation, the AI declaration question) and points to the DSN talk on 22 September.
+
+Subject: FAIR by doing - a 12-month programme offer
+
+Hi Everyone
+
+We are putting together a twelve-month, hands-on programme at ETH that helps researchers make their own research data FAIR (Findable, Accessible, Interoperable, Reusable). You bring one of your own datasets and leave with it published as a citable data package with a DOI. Along the way you learn a workflow you can repeat on the rest of your data and other scientific work, with practical skills in Git and GitHub/GitLab, project management, and AI-assisted agentic workflows. We also intend to answer questions around how to declare the use of AI in scientific research, going beyond ticking a box and asking how we can prove what is still created by humans.
+
+The programme starts in early 2027 and consists of four to five hands-on workshops (\~ 20 hours in total), an additional full-day workshop on organisational change for open science with Greg Wilson (provisionally confirmed), quarterly hands-on team meetings, and direct support between sessions. Adriana Clavijo Daza and I deliver it as the Global Health Engineering Open Science Team at ETH Zurich. We are both embedded data stewards in this research group.
+
+We are applying for the ETH FAIR Competence Funding to pay for the programme. If the grant is approved, your place (CHF 2,000) is covered and you pay nothing.
+
+The programme fits you if you:
+
+- are curious about the enabling opportunities of using agentic AI for scientific research,
+- are employed at ETH for the next year or so,
+- have at least one dataset from your own work that you could make open, or work toward making open, and
+- have written some lines of code for your own data analysis (R, Python, Julia, JavaScript, Stata, SPSS, C++, or any other scripting language).
+
+If you are interested, please reply to this form:
+
+<https://forms.gle/4ixnUafQKAq58NpX9>
+
+If you are unsure whether the programme fits for you, send Lars an email and we will talk through it. There is also an opportunity on 22 September to listen to a talk by Lars at the Data Stewardship Network Community meeting where the concept is outlined.
+
+Best
+
+Lars & Adriana
 
 ## Tracking
 

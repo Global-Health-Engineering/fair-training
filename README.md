@@ -13,7 +13,7 @@ The ETH FAIR Competence Funding supports projects that build FAIR (Findable, Acc
 
 ## The proposal in brief
 
-A 12-month programme that trains 15 ETH researchers to make their own research data FAIR by doing it, taking each participant from a raw file to a published, citable data package. The cohort is mixed by department, career stage, and discipline, so the programme can treat FAIR practice as something that differs by community and data type rather than as one generic skill set. Five workshops (28 hours) cover FAIR data sharing and data management, Git and GitHub/GitLab collaboration, task and project management, agentic AI workflows, and organisational change for open science.
+A 12-month programme that trains 15 ETH researchers to make their own research data FAIR in the era of agentic AI tools, by doing it. Each participant takes a dataset of their own from a raw file to a published, citable data package. The cohort is mixed by department, career stage, and discipline, so the programme can treat FAIR practice as something that differs by community and data type rather than as one generic skill set. Five workshops (28 hours) cover FAIR data sharing and data management, Git and GitHub/GitLab collaboration, task and project management, agentic AI workflows, and organisational change for open science. Participants use agentic AI tools on their own data, and the programme works out how to declare AI use in a way that goes beyond ticking a box and shows what researchers still produced themselves.
 
 For a fuller, scannable overview, see [comms/proposal-summary.md](comms/proposal-summary.md).
 
@@ -30,6 +30,7 @@ For a fuller, scannable overview, see [comms/proposal-summary.md](comms/proposal
 - [`proposal-summary.md`](comms/proposal-summary.md) - one-page stakeholder summary of the proposal.
 - [`commitment-sheet.md`](comms/commitment-sheet.md) - participant commitment sheet.
 - [`recruitment-plan.md`](comms/recruitment-plan.md) - plan for recruiting the 15 participants.
+- [`interest-form.md`](comms/interest-form.md) - field specification for the expression-of-interest form, with the selection criteria the answers feed.
 
 ### `references/`
 
