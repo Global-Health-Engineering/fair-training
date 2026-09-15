@@ -21,7 +21,7 @@ For a fuller, scannable overview, see [comms/proposal-summary.md](comms/proposal
 ## Submission record
 
 - The completed template is [`references/FAIR-Seed-Funding-2ndcall-Template-lschoebitz.docx`](references/FAIR-Seed-Funding-2ndcall-Template-lschoebitz.docx). It is the source of the submitted PDF, and `proposal/proposal.qmd` mirrors it section by section.
-- The submitted PDF is kept as `proposal/2026-09-15-fair-by-doing-proposal.pdf`, added after submission.
+- The submitted PDF is [`references/FAIR-Seed-Funding-2ndcall-Template-lschoebitz.pdf`](references/FAIR-Seed-Funding-2ndcall-Template-lschoebitz.pdf), rendered from the completed template.
 - The state of the repository at submission is tagged as release `v1.0.0` on `main`.
 - The work plan tables (work packages, activities with milestones and research questions, budget, budget justification) live in a public Google Sheet that anyone can view and comment on: https://docs.google.com/spreadsheets/d/14DwpPjRWP73SPWMIgO_EpxFua7xIOAcl6iq3-ivrgK0. Table 2 is attached to the proposal as an annex.
 - How AI was used in writing the proposal is declared in section 4.2 of the proposal and in full in [`proposal/ai-use-statement.md`](proposal/ai-use-statement.md). The record behind that statement is the commit history and the `prompts/` folder.
@@ -56,6 +56,7 @@ One file per prompt behind an AI-assisted change, verbatim, with the timestamp, 
 - [`FAIR-Competence-Funding-2ndcall-guidelines-final.pdf`](references/FAIR-Competence-Funding-2ndcall-guidelines-final.pdf) - the call guidelines, including the evaluation criteria.
 - [`FAIR-Seed-Funding-2ndcall-Template.docx`](references/FAIR-Seed-Funding-2ndcall-Template.docx) - the official submission template, blank.
 - [`FAIR-Seed-Funding-2ndcall-Template-lschoebitz.docx`](references/FAIR-Seed-Funding-2ndcall-Template-lschoebitz.docx) - the completed template as submitted.
+- [`FAIR-Seed-Funding-2ndcall-Template-lschoebitz.pdf`](references/FAIR-Seed-Funding-2ndcall-Template-lschoebitz.pdf) - the PDF as submitted on 15 September 2026.
 - [`annex-activities.md`](references/annex-activities.md) - list of events where the underlying workflow has been presented.
 - [`initial-draft.md`](references/initial-draft.md) - the first outline of the programme idea.
 - [`initial-email.md`](references/initial-email.md) - the early note to the FAIR Coalition contact that opened the conversation.
