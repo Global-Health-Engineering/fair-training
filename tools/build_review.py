@@ -270,17 +270,36 @@ function build(){
 }
 
 function exportAll(){
-  var ta=document.getElementById('out');
-  ta.value=build();
-  ta.select();
-  var ok=false;
-  try{ok=document.execCommand('copy')}catch(e){}
-  if(!ok&&navigator.clipboard){
-    try{navigator.clipboard.writeText(ta.value);ok=true}catch(e){}
+  var ta=document.getElementById('out'), msg=document.getElementById('msg');
+  // Fill the textarea first and independently of anything that can throw,
+  // so the decisions are always on screen even if copying fails.
+  var text;
+  try{ text=build(); }
+  catch(err){
+    msg.textContent='Could not build the export: '+err.message;
+    return;
   }
-  document.getElementById('msg').textContent = ok
+  ta.value=text;
+  ta.removeAttribute('hidden');
+  ta.scrollIntoView({block:'nearest'});
+
+  // Copying is best effort. Every path below is optional.
+  var ok=false;
+  try{ ta.focus(); ta.select();
+       ta.setSelectionRange(0, text.length);
+       ok=document.execCommand('copy'); }catch(e){}
+  if(!ok && navigator.clipboard && navigator.clipboard.writeText){
+    navigator.clipboard.writeText(text).then(function(){
+      msg.textContent='Copied. Paste it into the chat.';
+    }).catch(function(){
+      msg.textContent='Text is ready below. Select it and copy manually.';
+    });
+    msg.textContent='Text is ready below.';
+    return;
+  }
+  msg.textContent = ok
     ? 'Copied. Paste it into the chat.'
-    : 'Select the text below and copy it manually.';
+    : 'Text is ready below. Select it and copy manually (cmd+A, cmd+C).';
 }
 
 function resetAll(){
@@ -292,9 +311,24 @@ function resetAll(){
   document.getElementById('out').value=''; meters();
 }
 
-bind(); meters();
+window.addEventListener('error',function(e){
+  var m=document.getElementById('msg');
+  if(m) m.textContent='Script error: '+e.message;
+});
+
+try{ bind(); meters(); }
+catch(err){
+  var m=document.getElementById('msg');
+  if(m) m.textContent='Setup error: '+err.message;
+}
 document.getElementById('exp').addEventListener('click',exportAll);
 document.getElementById('rst').addEventListener('click',resetAll);
+// Keep the textarea current as decisions are made, so the export block is
+// visible without pressing anything.
+function refresh(){ try{ document.getElementById('out').value=build(); }catch(e){} }
+document.addEventListener('change',refresh);
+document.addEventListener('input',refresh);
+refresh();
 """
 
 
