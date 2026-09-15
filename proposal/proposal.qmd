@@ -1,6 +1,6 @@
 ---
 title: "FAIR by doing"
-subtitle: "A hands-on programme that trains ETH researchers to make their own research data FAIR"
+subtitle: "A hands-on programme that trains ETH researchers to make their own research data FAIR and to declare their use of AI tools"
 author:
   - name: "Lars Schöbitz"
     affiliation: "Global Health Engineering, D-MAVT, ETH Zurich"
@@ -8,7 +8,7 @@ author:
   - name: "Adriana Clavijo Daza"
     affiliation: "Global Health Engineering, D-MAVT, ETH Zurich"
     email: "aclavijo@ethz.ch"
-date: "2026-09-01"
+date: "2026-09-15"
 format:
   docx:
     toc: false
@@ -17,190 +17,225 @@ format:
 lang: en-GB
 ---
 
+```{=html}
 <!--
-FAIR Competence Funding, 2nd call. Due Tuesday 15 September 2026, 17:00 CET,
-as PDF to openscience@sl.ethz.ch, using the official template. This draft maps
-one to one onto the template sections so the text can be pasted into the DOCX.
-Guiding questions are removed, as the template instructs. Notes to us are marked
-[TODO] and must be deleted before submission.
+FAIR Competence Funding, 2nd call. Submitted Tuesday 15 September 2026 as PDF
+to openscience@sl.ethz.ch, using the official template
+(references/FAIR-Seed-Funding-2ndcall-Template-lschoebitz.docx). This file
+mirrors the submitted DOCX section by section, without the template's own
+instruction text. Edit the DOCX and this file together.
 
 Render with: quarto render proposal.qmd
 -->
+```
 
 ------------------------------------------------------------------------
 
 ## Proposal submission (header block)
 
-- Title of project: FAIR by doing: a hands-on programme that trains ETH researchers to make their own research data FAIR
+- Title of project: FAIR by doing - A hands-on programme that trains ETH researchers to make their own research data FAIR and to declare their use of AI tools
 - Project summary: see below
-- Corresponding applicant: Lars Schöbitz, Open Science Specialist, Global Health Engineering, D-MAVT, CLD D 13, Clausiusstrasse 37, 8092 Zürich, lschoebitz@ethz.ch
-- Co-applicant: Adriana Clavijo Daza, Scientific Assistant, Global Health Engineering, D-MAVT, aclavijo@ethz.ch
-- Supporting research unit 1: [TODO fill in: head of unit, contact details, email. The direct superior's support letter must come from this unit.]
-- Supporting research unit 2: [TODO fill in: second supporting unit head, contact details, email]
+- Corresponding applicant: Lars Schöbitz, Open Science Specialist, Global Health Engineering, D-MAVT, CLD D 13, Clausiusstrasse 37, 8092 Zürich, lschoebitz\@ethz.ch
+- Co-applicant: Adriana Clavijo Daza, Scientific Assistant, Global Health Engineering, D-MAVT, aclavijo\@ethz.ch
+- Supporting research unit 1: Prof. Dr. Elizabeth Tilley, Associate Professor, Global Health Engineering, D-MAVT, ETH Zurich, CLD D 10.1, Clausiusstrasse 37, 8092 Zurich, tilleye\@ethz.ch. The grant account sits with this unit and Lars Schöbitz is the budget manager. Support letter signed and attached.
+- Supporting research unit 2: Prof. Dr. Christian Pohl, Head of the USYS TdLab and Head of the Institute for Environmental Decisions (IED), D-USYS, ETH Zurich, CHN K 78, Universitätstrasse 16, 8092 Zurich, christian.pohl\@usys.ethz.ch. Support letter signed and attached.
 
 ### Project summary
 
-[TODO keep to about 150 words in the DOCX. Draft below.]
-
-Prepared once the proposal has reached a more final state.
+FAIR by doing is a twelve-month programme that trains fifteen ETH researchers to make their own research data FAIR and to declare how they use AI tools. Each participant brings a dataset from their own work and leaves with it published as a citable data package with a DOI and a workflow they can repeat on their remaining data. Five taught workshops (24 hours) cover FAIR data sharing and management, Git and GitHub or GitLab, project management, and agentic AI workflows for data, alongside a full-day workshop on organisational change for open science. Researchers using agentic AI tools get more from well documented data and face the question of how to declare AI use and show what they still produced themselves. The programme works out practical answers with the cohort. The cohort mixes department, career stage, and discipline, so the applicants derive recommendations on how FAIR practice differs by community.
 
 ------------------------------------------------------------------------
 
-## 1. Applicant (weight 20%)
+## 1. Applicant
 
-[TODO one page maximum per applicant. Two applicants, so two pages total for section 1. Delete all guiding questions in the DOCX.]
+### 1.1 Work related to Research, Research Data Management (RDM), Research Software Engineering (RSE), Open Research Data (ORD) and/or the FAIR Principles in the past (Applicant 1: Lars Schöbitz)
 
-### 1.1 Lars Schöbitz: work related to research, RDM, RSE, ORD, and the FAIR principles
+Lars Schöbitz has been the Open Science Specialist and embedded Data Steward at Global Health Engineering (D-MAVT) since the Chair was founded in July 2021. He supports all group members in RDM, RSE, ORD and the FAIR principles and owns the group's data management strategy. His trainings are hands-on application of RDM workflows that are designed, tested and supported.
 
-Lars Schöbitz is the Open Science Specialist and embedded Data Steward at Global Health Engineering (D-MAVT) since July 2021 and the founding of the Chair. He supports all group members in RDM, RSE, ORD and FAIR principles and is responsible for the data management strategy of the group. Trainings are hands-on application of RDM workflows that are carefully designed, tested and supported.
+He leads openwashdata, a community funded through four ETH ORD projects, where the toolchain is tested under research conditions turning unpublished WASH (Water, Sanitation, Hygiene) datasets into published, documented, citable data packages. He also runs meta-analysis of the sector, covering research and UN global monitoring, to baseline current data sharing practice and monitor how it changes.
 
-He leads openwashdata, a community which received funding through four ETH ORD projects. There, tools are tested under research conditions using the designed toolchain that turns unpublished WASH (Water Sanitation, Hygiene) datasets into published, documented, citable data packages. He conducts meta-analysis of the entire sector (research, UN global monitoring) to identify current data sharing practices which allow to set baseline for continuous long-term impact monitoring of changing practices through the training provided to the sector.
+For this he designed and taught ds4owd (Data Science for openwashdata), an online course that trained more than 150 participants to manage and publish data using R, Git, and GitHub, with weekly student hours, support on real assignments using participants' own data, and a capstone project. His teaching is grounded in hands-on practice rather than slides: participants finish able to point to how they addressed the FAIR principles in their own data.
 
-For this training he designed and taught ds4owd (Data Science for openwashdata), an online course that trained more than 150 participants to manage and publish data using R, Git, and GitHub, with weekly student hours and direct support on real assignments using participants data and a final capstone project report. His teaching philosophy for adopting FAIR and open data sharing principles is grounded in hands-on applied practice rather than passively presenting slides on the overall concepts. FAIR is lived and experienced rather than taught in theory where outcomes of the training are that participants are then able to identify how they themselves have addressed FAIR principles in their own actions on their own data.
+The programme builds on a 4-ECTS class, "Research Beyond the Lab: Open Science and Research Methods for a Global Engineer", designed and taught with Elizabeth Tilley three times (spring 2022, 2024, 2025), in which D-MAVT students ran a research project, collected their own data, learned R, Git, GitHub, and Quarto, and applied FAIR data management, with all material published as Open Educational Resources.
 
-The training is a further development of a 4-ECTS class taught ("Research Beyond the Lab: Open Science and Research Methods for a Global Engineer"), designed and taught by Lars and Liz Tilley, three times (spring 2022, 2024, and 2025), in which D-MAVT students developed a research project, collected their own data, learned R, Git, GitHub, and Quarto, and applied FAIR data management, with all material published as Open Educational Resources.
+Alongside the openwashdata projects funded by the ETH Domain ORD programme (Measure 1), he supported the funded Explore project FAIRqual with the D-USYS Transdisciplinarity Lab, on how ORD practice differs for qualitative researchers and on the data governance questions behind it.
 
-Next to the openwashdata projects funded by ETH Domain Open Research Data programme (Measure 1), he supported the funded Explore project FAIRqual with the D-USYS Transdisciplinarity Lab, exploring how ORD practices are different for qualitative researchers and answering greater questions of data governance, supporting the development of training material for that community.
+### 1.2 Previous and ongoing RDM/RSE-related activities at ETH Zurich (Applicant 1: Lars Schöbitz)
 
-### 1.2 Lars Schöbitz: ongoing RDM/RSE activities at ETH Zurich
+Lars is a data steward in the ETH Zurich Data Stewardship Network (DSN), hosted by the ETH Library, and holds several roles in the reproducibility and RDM community:
 
-In addition to the work at Global Health Engineering and ETH ORD project work, Lars is a data steward in the ETH Zurich Data Stewardship Network (DSN) hosted by the ETH Library. He holds several current roles in the reproducibility and RDM community:
+- Local Node Leader for ETH Zurich in the Swiss Reproducibility Network (SwissRN) since 2025.
+- Contributor to the AI Disclosure Working Group of the Global Federation of Reproducibility Networks (GFRN), feeding the reproducibility perspective into the Global Reporting Standard for AI Disclosure in Research.
+- Member of the Expert Sounding Group for the ETH Domain ORD Measure 5 project "Career Paths for Open Research Data Professionals" (2025 to 2026).
 
-- Data steward, ETH Zurich Data Stewardship Network.
-- Local Node Leader for ETH Zurich in the Swiss Reproducibility Network (SwissRN), since 2025, promoting reproducible and open research practices across the institution.
-- Contributor in the AI Disclosure Working Group of the Global Federation of Reproducibility Networks (GFRN), which contributes the reproducibility community's perspective to the Global Reporting Standard for AI Disclosure in Research (a joint ISC, COPE, STM, and GYA initiative).
-- Member of the Expert Sounding Group for the ETH Domain ORD programme Measure 5 project "Career Paths for Open Research Data Professionals" (2025 to 2026), which is the professionalisation frame for recruiting participants who already hold RDM responsibility.
+The programme is built on a data-package pipeline Lars has developed and used for years: it produces tidy data, README files, data dictionaries, and archived Zenodo releases through the R ecosystem, with curated websites for discovery. The GHE Open Science Team uses it daily, taking raw data through an audit trail of versioned, documented steps to a published FAIR data package with a DOI, an open licence, a citation file recording each contributor's ORCID, and an entry in the ETH Research Collection.
 
-The proposed programme is built on a data-management workflow that Lars has developed, used, and presented for years. He has built a data-package pipeline which produces tidy data, README files, data dictionaries, and archived releases on Zenodo, relying on the established R ecosystem for R data packages with curated websites developed for human discovery and exploration. The GHE Open Science Team uses this workflow for day-to-day data management: it takes raw data through an audit trail of versioned, documented steps to a published, FAIR data package with a DOI, a citation file recording each contributor's ORCID, and an entry in the ETH Research Collection.
+He tracks developments in RDM, FAIR, and ORD, including MLCroissant, data-dict.yaml, and RO-Crate (ETH Node), and has presented this workflow under the title "Plan for tomorrow today" at many venues in the reproducibility and RDM communities.
 
-He stays current on developments in RDM, FAIR, and ORD, and explores how to use cutting-edge ideas such as MLCroissant, data-dict.yaml by Hadley Wickham, and RO-Crate (ETH Node). Lars has presented this workflow, often under the title "Plan for tomorrow today," at many venues in the reproducibility and RDM communities, where it has consistently been well received (see Annex for the list of events at which it has been or will be presented).
+His employment at Global Health Engineering is permanent and runs for the full project duration, so the team can evaluate whether the offer continues beyond twelve months with a yearly cohort from ETH Zurich and FAIR Coalition members.
 
-His employment at Global Health Engineering is permanent and runs for the full project duration. This allows the team to evaluate the outcomes of this proposal and whether the training offer can continue beyond the twelve months, with a yearly cohort drawn from ETH Zurich and FAIR Coalition members.
+Earlier gitforsci and agentsforsci workshops, supported by the DSN and SwissRN, produced training material this programme reuses and refines. Because much of the training covers agentic AI programming, that material is kept current and feeds the wider conversation on declaring AI use in research.
 
-The team's prior work also shows this approach already runs at ETH. Earlier gitforsci and agentsforsci workshops, supported by the DSN and SwissRN, produced training material that this programme reuses, further refines, and builds on. As significant training will be in the area of using agentic AI programming, the material stays up to date with current trends and aims to contribute to the global conversation on declaration of AI in research.
+### 1.1 Work related to Research, Research Data Management (RDM), Research Software Engineering (RSE), Open Research Data (ORD) and/or the FAIR Principles in the past (Applicant 2: Adriana Clavijo Daza)
 
-### 1.1 Adriana Clavijo Daza: work related to research, RDM, RSE, ORD, and the FAIR principles
-
-Adriana Clavijo Daza has been a member of the Global Health Engineering Open Science Team since June 2025 and an active contributor of the openwashdata community. She holds an MSc in Statistics and Data Science and is a Carpentries-certified instructor. Before joining ETH, she worked as a statistician and data scientist for public and private institutions in Colombia, as well as for a non-profit and a consultancy firm in Switzerland. 
+Adriana Clavijo Daza has been a member of the Global Health Engineering Open Science Team since June 2025 and an active contributor of the openwashdata community. She holds an MSc in Statistics and Data Science and is a Carpentries-certified instructor. Before joining ETH, she worked as a statistician and data scientist for public and private institutions in Colombia, as well as for a non-profit and a consultancy firm in Switzerland.
 
 As a Scientific Assistant, Adriana supports the supervision of PhD students by advising on data management and reproducible workflows, develops and maintains R data packages that publish WASH datasets in a documented, reusable form for the openwashdata community and Global Health Engineering. She co-developed and maintains an R package for the openwashdata community that turns a tidy dataset into a documented, installable, citable R package with an accompanying website, substantially lowering the technical barrier to publishing research data in FAIR-compliant form.
 
 As an instructor, she engages with learners, particularly those who need more support in working through the community's offerings. Her teaching training experience focuses on novices and on creating a safe environment in which to fail.
 
-### 1.2 Adriana Clavijo Daza: ongoing RDM/RSE activities at ETH Zurich
+### 1.2 Previous and ongoing RDM/RSE-related activities at ETH Zurich (Applicant 2: Adriana Clavijo Daza)
 
-Adriana is a member of the ETH Library Data Stewardship Network, providing a direct link between this project and the DSN that the call asks applicants to support. Her RDM and RSE work at ETH spans training, advising, and software development. She supported the ds4owd course, which trained more than 150 participants, through weekly student hours, direct assistance with assignments, and personalised guidance on the final project. She also hosted data science flipped-classroom sessions with PhD students from Global Health Engineering and Food Systems Economics and Policy, built around the recordings of the ten-week ds4owd course: participants watched the recordings and completed the assignments on their own, then worked hands-on with Adriana in additional training sessions with supplementary exercises. 
+Adriana is a member of the ETH Library Data Stewardship Network, providing a direct link between this project and the DSN that the call asks applicants to support. Her RDM and RSE work at ETH spans training, advising, and software development. She supported the ds4owd course, which trained more than 150 participants, through weekly student hours, direct assistance with assignments, and personalised guidance on the final project. She also hosted data science flipped-classroom sessions with PhD students from Global Health Engineering and Food Systems Economics and Policy, built around the recordings of the ten-week ds4owd course: participants watched the recordings and completed the assignments on their own, then worked hands-on with Adriana in additional training sessions with supplementary exercises.
 
 She also collaborates with PhD students at Global Health Engineering, advising them on the selection of appropriate statistical methods for their data analysis, with a particular focus on reproducibility and transparent research practices with R, Git, GitHub and Quarto. In addition, she contributed a talk on Open Research Data to the D-MAVT course Ethics and Scientific Integrity for Doctoral Students, introducing participants to the principles and practical aspects of sharing research data.
 
-------------------------------------------------------------------------
+## 2. Project description
 
-## 2. Project (weight 80%, sub-sections 2.1 to 2.5 weighted equally)
+### 2.1 Digital research assets
 
-[TODO three pages maximum for all of section 2. Delete all guiding questions in the DOCX. Keep the five sub-sections balanced in length.]
+The digital research assets are the participants' own datasets, with the code, workflows, and documentation needed to make them FAIR. Each of the fifteen participants brings real data from their own work: tabular, survey, measurement and sensor data, and the qualitative material (interviews and recordings) that raises the hardest sharing questions.
 
-### 2.1 Relevance of digital research assets for ETH Zurich
+Agentic AI tools give ETH researchers a second reason to make these assets FAIR. An agent that cleans or reuses a dataset needs the same documentation a human colleague needs, such as a data dictionary stating what each variable means. Researchers who document their data well can hand routine work to an agent and check the result; those who do not, cannot. Agents also produce code and text that reach research outputs, so researchers need a way to declare AI use that shows what they still produced themselves. Participants use these tools on their own data, and the declaration of AI use runs through the whole year (section 2.2).
 
-The digital research assets in this project are the participants' own research datasets, together with the code, workflows, and documentation needed to make them FAIR. Each of the fifteen participants brings real datasets from their own work. Across a mixed cohort this covers tabular data, survey data, measurement and sensor data, and the qualitative data (interviews and recordings) that raise the hardest sharing questions.
+The gap is practical. ETH researchers know the FAIR principles exist but often cannot apply them to their own data, largely because adopting new workflows costs time that data sharing and computational reproducibility are not yet rewarded for. Over twelve months the programme lets researchers adopt a new workflow alongside existing practice and build the arguments for it, using established teaching methods: spaced practice, hands-on activities, and relevance to the learner's own work.
 
-The gap of applying FAIR data practices is practical in nature. Conceptually, ETH researchers know the FAIR principles exist but often cannot apply them to their own data. A common reason are the time constraints that come with adopting new workflows, especially where data sharing (and computational reproducibility) currently isn't rewarded by the scientific community as much as publishing journal articles is. This 12-month programme allows researchers to adopt a new workflow alongside their existing practices and with it develop a strategy and convincing arguments for future data management. The programme is grounded in established teaching methods for successful training and motivated learners, such as spaced practice, hands-on activities, and personal relevance to the learner's own work.
-
-The target community is ETH researchers who already hold, or are moving into, responsibility for research data management in their group or role, drawn deliberately from several departments, career stages, and disciplines. This is the professionalisation angle of the ETH Domain Measure 5 work on career paths for open research data professionals: rather than introducing beginners to the basics, the programme upskills people who already carry RDM responsibility, and doctoral students are increasingly the ones who carry it in practice. Ideally, the planned cohort mixes one or two professors, two or three senior scientists or postdocs, seven doctoral students, and two or three scientific or technical staff. A mixed cohort is the point, because it lets the programme treat FAIR data sharing as something that differs by community and by data type, rather than as one generic skill set. From this experience, the programme will produce recommendations specific to those communities, highlighting differences and commonalities.
+The target community is ETH researchers who already hold, or are moving into, RDM responsibility, drawn from several departments, career stages, and disciplines. This is the professionalisation angle of the ETH Domain Measure 5 work on career paths for open research data professionals: the programme upskills people who already carry RDM responsibility, increasingly doctoral students, and is a route into the embedded data stewardship role Global Health Engineering already practises. The cohort balances postdoctoral researchers and doctoral students, alongside scientific and technical staff carrying RDM responsibility; one or two professors is an aspirational goal, carrying the practice into how a group is led. Participants are selected for a dataset of their own, some coding experience, and curiosity about agentic AI tools. A mixed cohort lets the programme treat FAIR data sharing as something that differs by community and data type, and produce recommendations specific to those communities.
 
 ### 2.2 Specific effort that will be funded by this call
 
-The innovative part of the programme is that participants make their own data FAIR by doing it, with support, across a full year, rather than learning the principles in the abstract. Most FAIR and RDM training at ETH is delivered as short courses or one-off summer schools without directly working with participants' own data. This programme instead walks each participant from a raw file to a published, citable data package, then keeps supporting them while they apply the same workflow to the rest of their data.
+Participants make their own data FAIR by doing it, with support, across a full year. Most FAIR and RDM training at ETH is delivered as short courses or summer schools that do not touch participants' own data. This programme walks each participant from a raw file to a published, citable data package, then supports them while they apply the same workflow to the rest of their data. The published package is findable through its DOI and ETH Research Collection entry, accessible through Zenodo, interoperable through tidy data and a data dictionary, and reusable through its README, open licence and citation file.
 
-A second innovative aspect runs through the whole year: the declaration of AI use in research. As participants use agentic AI workflows on their own data, the programme treats how to disclose that use as an open question in research integrity and develops practical answers with fifteen real researchers. This connects directly to Lars's contribution to the GFRN AI Disclosure Working Group. The programme explores how to document a provenance trail for AI use, from Git commits that make each AI-assisted change visible and reversible, to experimental tools such as re_gent that record which agent step and which prompt produced each change.
+A second thread runs through the year: the declaration of AI use. As participants apply agentic AI workflows to their own data, the programme treats disclosure as an open question in research integrity and develops practical answers with fifteen real researchers. It asks how researchers show which parts of their work they produced themselves, connecting to Lars's contribution to the GFRN AI Disclosure Working Group. The programme explores provenance trails for AI use, from Git commits that make each AI-assisted change visible and reversible to experimental tools such as re_gent that record which agent step and prompt produced a change.
 
-The applicants' own training and competence development is a funded part of the project. Lars Schöbitz and Adriana Clavijo Daza will deepen their skills in two areas that the programme depends on: agentic AI workflows for data management, and the organisational-change methods needed to embed open-science practice in research groups. The organisational-change workshop, delivered by Greg Wilson (author of "Organisational Change for Open Science"), trains the applicants and the cohort together, and the applicants carry the method into later cohorts and into their DSN and community work.
+The applicants' own training is a funded part of the project. Lars Schöbitz and Adriana Clavijo Daza will deepen their skills in agentic AI workflows for data management and in organisational-change methods for embedding open-science practice. The organisational-change workshop, delivered by Greg Wilson (author of "Organisational Change for Open Science"), trains the applicants and the cohort together, and the applicants carry the method into later cohorts and their DSN work.
 
-The programme develops a reusable teaching service and builds a larger community around these practices. The five workshops, the participant's data-package pipeline, and the supporting materials become a repeatable offering that Global Health Engineering can run for further ETH cohorts after the project. The five workshops are:
+The five taught workshops, the hosted organisational change day, the data-package pipeline, and the supporting materials become a repeatable offering Global Health Engineering can run for further ETH cohorts after the project. Support hours run between all sessions. In delivery order, on a 1 February 2027 start:
 
-- Two four-hour workshops on FAIR data sharing and data management, built on the openwashdata workflow, working with each participant's own data and with ongoing support hours between sessions.
-- One four-hour workshop on Git and GitHub or GitLab collaborative workflows.
-- One four-hour workshop on GitHub or GitLab for task and project management.
-- One eight-hour workshop on agentic AI workflows for data management.
-- One full-day organisational-change workshop for open science, delivered by Greg Wilson at Villa Hatt.
+- Month 3, Git for Scientists: four hours on Git and GitHub or GitLab collaborative workflows, building on existing material, at ETH.
+- Month 4, FAIR data sharing: four hours on the openwashdata workflow, using each participant's own data, at ETH.
+- Month 5, GitHub or GitLab for project and task management: four hours, at ETH.
+- Month 6, agentic AI workflows for data management: eight hours, at Villa Hatt.
+- Month 8, organisational change for open science: a full day at Villa Hatt, delivered by Greg Wilson and hosted by the applicants.
+- Month 9, FAIR data management: four hours taking each participant from a documented dataset to a data management strategy for their group, at ETH.
 
-Community building runs through the whole programme, as the 2nd call requires. At Global Health Engineering we plan to host AI Playground sessions three times per term and make them open to anyone at ETH and beyond and connect the cohort to a wider community. A Matrix (Element) channel, which every ETH member can log into, gives live support and links the cohort into the AI playground community. Quarterly hands-on project team meetings keep participants working on their data between workshops, while direct 1:1 support sessions by Lars and Adriana is always available on request. The cohort itself becomes a cross-department community of practice, because participants read and support each other's data and code and learn more about the community specific FAIR data practices.
+Community building runs throughout, as the 2nd call requires. Global Health Engineering will host AI Playground sessions three times per term from spring semester 2027, open to anyone at ETH and to the general public. The playground connects the cohort to the wider research community, their own and beyond ETH. It is a general offering that runs with or without this funding, and taking part is not required of the fifteen. A Matrix (Element) channel, open to every ETH member and to the public, gives live support and links the cohort to that community. Outreach beyond the cohort runs through a public project website that carries the material as it is produced, blog posts and LinkedIn, and talks at RDM and reproducibility venues. Quarterly hands-on team meetings keep participants working between workshops, and 1:1 support from Lars and Adriana is available on request. The cohort itself becomes a cross-department community of practice, as participants read and support each other's data and code.
 
-The expected impact outputs are published, FAIR data packages from fifteen ETH researchers by the end of the project, each researcher able to repeat the workflow on their remaining data, and a tested programme ready to run for the next community. Because participants come from several departments and career stages, the practice spreads into their groups.
+The expected outputs are published FAIR data packages from fifteen ETH researchers, each able to repeat the workflow on their remaining data, and a tested programme ready for the next community. Because participants come from several departments and career stages, the practice spreads into their groups.
 
-The programme also produces a research output. The fifteen participants are both trainees and a study cohort: over a full year, the programme examines how FAIR data sharing, data security, and the declaration of AI use differ across their disciplines and communities. From this we will produce recommendations on community-specific FAIR practice and on how researchers should declare AI use in their work, contributing to the broader conversation on scientific integrity as AI-assisted workflows reshape research practice.
+The programme also produces a research output. The fifteen participants are both trainees and a study cohort: over a full year it examines how FAIR data sharing, data security, and the declaration of AI use differ across their disciplines. Because the programme records a baseline of each participant's practice at the start, it can also define a light-touch indicator that could be re-measured later, so a future study can ask whether the practice held after the funded year. Establishing that indicator is a design step within this project, not ongoing monitoring. From this come recommendations on community-specific FAIR practice and on declaring AI use, contributing to the conversation on scientific integrity as AI-assisted workflows reshape research.
 
 ### 2.3 Work plan
 
-[TODO turn this into a milestone table or simple Gantt in the DOCX. The criterion rewards a clear timeline and named responsibilities. Twelve months, start 1 January or 1 February 2027.]
+The programme runs over twelve months from 1 February 2027 in four work packages. Table 1 gives the goal, months and lead of each work package.
 
-The programme runs over twelve months in four work packages.
+| **WP** | **Name** | **Goal** | **Months** | **Lead** |
+|----|----|----|----|----|
+| WP1 | Setup and recruitment | A confirmed cohort of fifteen and a working programme environment. | 1 to 2 | LS |
+| WP2 | Core workshops and data-package delivery | Every participant publishes a FAIR data package from their own data. | 2 to 9 | LS, AC |
+| WP3 | Community building and outreach | An active cross-department community that reaches beyond the cohort. | 1 to 12 | AC, LS |
+| WP4 | Consolidation, sustainability, and reporting | A reusable programme and the lessons fed back into the DSN. | 10 to 12 | LS |
 
-- WP1, Setup and recruitment (months 1 to 2). Confirm the fifteen participants from the pre-commited cohort and their signed commitments, collect each participant's dataset and a short data description, information on their overall experiences and competencies in RDM, set up the ETH GitLab and GitHub spaces and the Matrix channel, and finalise the workshop schedule. Deliverable: a confirmed cohort and a working programme environment. Lead: Lars Schöbitz.
-- WP2, Core workshops and data-package delivery (months 2 to 9). Run the five workshops and the support hours between them. Each participant produces published, FAIR data package from their own data. Deliverables: five workshops delivered, minimum fifteen data packages in progress, support logged through issues. Leads: Lars Schöbitz and Adriana Clavijo Daza, with Greg Wilson for the organisational-change workshop.
-- WP3, Community building and outreach (months 1 to 12, running throughout). AI playground events, quarterly hands-on team meetings, and the Matrix support channel. Deliverable: an active cross-department community and a record of events. Lead: Adriana Clavijo Daza.
-- WP4, Consolidation, sustainability, and reporting (months 10 to 12). Publish the final data packages, capture the programme as a reusable offering, feed lessons into the DSN, and write the final content and financial reports. Deliverables: minimum fifteen published FAIR data packages, a documented reusable programme, DSN contribution, a draft and flexible data management strategy for the participants research group, final project reports. Lead: Lars Schöbitz.
-
-Roles: Lars Schöbitz is corresponding applicant and budget manager, and leads WP1, WP2, and WP4. Adriana Clavijo Daza co-delivers WP2 and leads WP3 and the DSN link. Greg Wilson delivers the organisational-change workshop under WP2. Tools and technologies are ETH-native and transferable: ETH GitLab, GitHub, Zenodo, the ETH Research Collection, Matrix (Element), R, and Anthropic Claude Code.
+The activities, milestones and Gantt chart behind Table 1 are in Table 2 in the public work plan sheet at https://docs.google.com/spreadsheets/d/14DwpPjRWP73SPWMIgO_EpxFua7xIOAcl6iq3-ivrgK0, which anyone can view and comment on, together with the research question attached to each activity. Table 2 is not shown here, to keep to the page limit. The call does not mention an appendix as an option, but we have attached Table 2 as an appendix for reviewers who want the detail. Both tables are work in progress. We will refine the activities and milestones throughout the funding cycle, and we welcome input from the reviewers to revise and improve them, in the review or as comments on the sheet. Roles (LS: Lars Schöbitz, AC: Adriana Clavijo Daza, GW: Greg Wilson, as used in the tables above).
 
 ### 2.4 Feasibility and risk assessment
 
-The programme is feasible because it builds on an existing, proven delivery capability. The Global Health Engineering Open Science Team has already trained more than 150 people to publish open data through ds4owd, and the data-package pipeline, and parts of the workshop material already exist.
+The programme builds on proven delivery capability. The Global Health Engineering Open Science Team has already trained more than 150 people to publish open data through ds4owd, and the data-package pipeline and much of the workshop material already exist.
 
-Early-stage proposals have been shared with the ETH Library (Julian Dederke) and SwissRN (Daniel Stekhoven, ETHZ local node), so the approach is known to the relevant ETH stakeholders and mitigates the risk of providing services already offered through courses of the ETH Library.
+Early-stage proposals were shared with the ETH Library (Julian Dederke) and SwissRN (Daniel Stekhoven, NEXUS Personalized Health), so the approach is known to the relevant stakeholders and does not duplicate existing ETH Library courses.
 
-- Recruitment risk: the programme needs at least fifteen committed participants at submission. Mitigation: A signed commitment sheet and the cohort design allows more doctoral students to replace senior staff if the senior places do not fill.
-- Drop-out risk: researchers work on unpredictable schedules and availability may change over the course of the year, which increases the risk of drop-out. Mitigation: Workshops will be recorded to allow researchers to listen to the taught elements and follow along with the practical exercises. Dates will be confirmed early, so that calendar conflicts are less likely. The overall expectation on individual work in between workshops will be kept to a small and manageable amount, while allowing those that want to invest more the opportunity to do so.
-- Financial and eligibility risk: the CHF 30,000 participant-place cost must read as workshop-organisation cost, not as staff salary, because personnel costs are not eligible. Mitigation: the budget books the per-participant cost under conferences and workshop organisation (the cost of running the training for the fifteen), with no salary line and no subcontracting line, so it stays within the call's rules. This concept idea was shared with openscience@sl.ethz.ch in it's early stages and considered appropriate.
+Recruitment is the main risk; the other three are secondary and largely covered by material that already exists.
+
+- Recruitment risk: the programme is designed for fifteen participants. At submission seven ETH researchers have expressed interest, six of them with their supervisor's confirmation, recruited through an open call across the Data Stewardship Network, the RSE Network, ETH4D, D-USYS TdLab, and the ETH ORD community. They come from four departments (D-GESS, D-USYS, D-EAPS, D-BAUG) and seven research units: six postdoctoral researchers and one doctoral student, working with measurement and sensor data, surveys, qualitative interview and focus-group material, computational and simulation work, and mixed methods. Mitigation: recruitment continues through WP1, more doctoral students can take senior places if those do not fill, and the FAIR Coalition's reach at ETH can fill remaining places. Interest across four departments within two weeks of an open call suggests demand is not the constraint.
+- Drop-out risk: researchers work on unpredictable schedules and availability may change across the year. Mitigation: workshops are recorded so participants can follow the taught elements and exercises later, dates are confirmed early to avoid calendar conflicts, and work between workshops is kept small and manageable, with room for those who want to invest more.
 - Delivery-capacity risk: two people deliver a year-long programme. Mitigation: the workshop material largely exists, the cohort supports itself, and the AI playground and Matrix channel spread the support load.
 
-Dependencies: ETH GitLab, GitHub, the ETH Research Collection, Zenodo, Villa Hatt availability, and Greg Wilson's availability for the organisational-change workshop. All are either standing ETH infrastructure or confirmable in WP1.
+### 2.5 Added value and impact
 
-### 2.5 Added value and impact of the project
+The project gives ETH a repeatable programme that turns researchers' own data into published FAIR data packages, and leaves it available after the funding ends. The new service is a tested, hands-on FAIR-implementation programme Global Health Engineering can run for further ETH communities, complementing the principle-level training the DSN and the RDM Summer School provide.
 
-The project gives ETH a repeatable programme that turns researchers' own data into published, FAIR data packages, and it leaves that programme available after the funding ends. The new service is a tested, hands-on FAIR-implementation programme that Global Health Engineering can run for further ETH communities, distinct from the principle-level training the DSN and the RDM Summer School provide.
+The direct benefit is fifteen published, FAIR, citable data packages from fifteen ETH researchers across several departments, D-GESS, D-USYS, D-EAPS and D-BAUG among them, each able to repeat the workflow on the rest of their data and pass it to their group. Because the cohort is mixed by discipline and method, the programme produces a case study of how FAIR data sharing, data security, and the declaration of AI use differ between communities. All teaching material is published as Open Educational Resources, with handbooks on delivering it.
 
-The direct benefit for research and teaching is fifteen published, FAIR, citable data packages from fifteen ETH researchers across several departments, plus fifteen researchers who can repeat the workflow on the rest of their data and pass it to their groups. Because the cohort is mixed by discipline and method, the programme produces a small case study of how FAIR data sharing and data security differ between communities. All teaching material is published as Open Educational Resources, including handbooks on how to deliver the material most effectively.
+Institutional responsibility sits with the Global Health Engineering Open Science Team, which already runs ORD, RDM, FAIR and AI training as standing activities. Sustainability has two parts. The assets are Open Educational Resources: templates, slides, websites, and an instructor handbook, following the pattern already proven with the Git for Scientists material published through the DSN, and Adriana Clavijo Daza is a certified Carpentries instructor. The competencies travel through the groups participants return to, carried by the data management strategy, a reusable data management plan, that each participant drafts for their own group. For the FAIR Coalition, the programme is a mechanism to bring more ETH researchers to sign the Charter, with each cohort a route to new signatories. The funding model is the per-participant fee: this grant funds and tests the first cohort at CHF 2,000 per place, and later cohorts can fund delivery through the same fee, potentially cross-subsidised through the Coalition.
 
-Institutional responsibility for continuation sits with the Global Health Engineering Open Science Team, which already runs ORD, RDM, FAIR and AI training as standing activities. The sustainable model is the per-participant fee. This grant funds the first cohort at CHF 2,000 per place and lets the team build and test the programme. After the project, later cohorts could fund their own delivery through the same CHF 2,000 fee paid by participants or their groups, potentially cross-subsidised through the FAIR Coalition, so the programme does not depend on repeat grant funding.
-
-The project contributes to the ETH Data Stewardship Network directly. Adriana Clavijo Daza is a DSN member, the applicants will sign the FAIR Coalition Charter, and the programme feeds its materials, its data-package workflow, and its lessons on community-specific FAIR practice back into the DSN. The programme also gives the ETH Library a practical test of the ETH RDM guidelines against real researcher data, with feedback returned to the Library.
-
-------------------------------------------------------------------------
+The project contributes to both communities the call names. Adriana Clavijo Daza is a DSN member, and the programme feeds its materials, workflow, and lessons on community-specific FAIR practice back into the DSN, while giving the ETH Library a practical test of the ETH RDM guidelines against real researcher data. Lars Schöbitz and Elizabeth Tilley have signed the FAIR Coalition Charter, Adriana Clavijo Daza signs at the start of the project, and the programme works towards every participant signing it as well, so a funded cohort of fifteen becomes fifteen new signatories across four or more departments. The link to the Research Software Engineering community runs through the RSE Network channel, used for recruitment and for sharing results. Lars Schöbitz has proposed a talk to the EnhanceR Symposium 2026 on the approach this programme scales, teaching Git, version control, and coding agents to researchers who do not come from IT, and will deepen that engagement with those responsible for teaching and training at ETH Scientific IT Services.
 
 ## 3. Use of funding
 
-### 3.1 Budget table
+### 3.1 Budget table (see Annex in the guidelines for more information on eligible costs)
 
-[TODO enter into the DOCX budget table. This project has two applicants from the same unit (Global Health Engineering, D-MAVT), so one applicant's-unit column. All figures in CHF.]
+| | Cost category | Applicant's unit | Total |
+|----|----|---:|---:|
+| Direct costs | Applicant training and education | 0 | 0 |
+| | Travel [1] | 0 | 0 |
+| | Equipment [2] | 9000 | 9000 |
+| | Publications [3] | 0 | 0 |
+| | Conferences and Workshop organisation [4] | 40880 | 40880 |
+| | Other (please specify) [5] | 0 | 0 |
+| | A – Total direct costs | 49880 | 49880 |
+| | B – Total subcontracting costs [6] | 0 | 0 |
+| | Total costs A + B [7] | 49880 | 49880 |
 
-Total requested from FAIR Competence Funding: CHF 49,400. This is under the CHF 50,000 cap. It is all direct cost, with no personnel/salary line and no subcontracting line.
+Footnotes:
 
-| Cost category | Amount (CHF) |
-|----|----|
-| Applicant training and education | 0 |
-| Travel | 0 |
-| Equipment (software: Claude Code, 15 seats x 6 months x 100) | 9,000 |
-| Publications | 0 |
-| Conferences and workshop organisation | 40,400 |
-| Other | 0 |
-| A. Total direct costs | 49,400 |
-| B. Total subcontracting costs | 0 |
-| Total costs A + B | 49,400 |
-
-Conferences and workshop organisation (CHF 40,400) breaks down as:
-
-- Training and workshop delivery for the fifteen participants: 15 x 2,000 = 30,000. This is the cost of organising and running the twelve-month training programme (the five workshops, the support hours, and the hands-on data-package work) for the fifteen participants, at CHF 2,000 per participant place.
-- Organisational-change workshop, Greg Wilson: honorarium 2,500 + travel 1,500 + three nights in Zurich 1,000 + Villa Hatt 1,500 = 6,500.
-- Workshop catering and venue: four workshops at ETH, catering 16 people x 30 = 480 each, so 4 x 480 = 1,920; plus Villa Hatt for one workshop 1,500. Subtotal 3,900.
+1. Travel expenses and conference/workshop fees.
+2. Hardware, software, consumables and service fees for an ORD platform when it is newly developed as part of the project; the operational costs only until the end of the project.
+3. Open access publication costs if they cannot be financed by other means.
+4. Costs for the organisation of conferences and workshops, and fees for participating in national and international networks or organisations that contribute to the project's objective.
+5. Other costs that are essential to the project and that are duly explained in the proposal.
+6. Subcontracting cost up to a maximum of 20% of the total costs.
+7. The total costs may not exceed CHF 50'000.
 
 ### 3.2 Justification of expenses
 
-Each requested item is eligible under the call's annex and necessary to deliver the programme.
+| **Cost Category** | **Cost Sub Category** | **Cost Item** | **Description** | **Cost** | **Justification** |
+|----|----|----|----|---:|----|
+| Direct costs | Conferences and workshop organisation | Training and workshop delivery | Organising and running the twelve-month programme for fifteen participants: five taught workshops (24 hours) plus the hosted organisational change day, the support hours between them, and the hands-on work taking each participant's dataset to a published FAIR data package. 15 places x CHF 2,000. | 30000 | Eligible as conferences and workshop organisation under footnote 4 of the call's budget annex. It is not a salary or personnel cost, which are not eligible; it is the cost of delivering the training service. The deliverable is fifteen trained researchers and fifteen published, citable data packages with DOIs. |
+| Direct costs | Conferences and workshop organisation | Organisational change workshop: honorarium | Full-day workshop on organisational change for open science, delivered by Greg Wilson, author of Organisational Change for Open Science. Scheduled between mid-September and early October 2027. | 2500 | Trains the applicants and the cohort together in the methods needed to embed FAIR practice in research groups. This is what turns a set of published data packages into a lasting change of practice, and the applicants carry the method into later cohorts and their Data Stewardship Network work. Placed late in the project so the cohort has published data packages to build the change work on. |
+| Direct costs | Conferences and workshop organisation | Organisational change workshop: travel | Travel for the external instructor to Zurich. | 1500 | Required to deliver the full-day organisational change workshop on site. Travel is eligible under footnote 1 of the call's budget annex. |
+| Direct costs | Conferences and workshop organisation | Organisational change workshop: accommodation | Three nights of accommodation in Zurich for the external instructor. | 1000 | Required to deliver the full-day workshop on site. Three nights covers arrival, the workshop day, and departure. |
+| Direct costs | Conferences and workshop organisation | Venue: agentic AI workflows workshop | Villa Hatt venue hire for the eight-hour agentic AI workflows workshop (full day). | 1500 | An off-site full-day venue suits the eight-hour hands-on format, where the cohort works on their own data for a full day. The four four-hour workshops are hosted at ETH Zurich at no venue cost. |
+| Direct costs | Conferences and workshop organisation | Venue: organisational change workshop | Villa Hatt venue hire for the full-day organisational change workshop. | 1500 | A second full-day off-site booking for the cohort-wide organisational change workshop with the external instructor. Separate from the agentic AI workshop booking; the two are held at different points in the project. |
+| Direct costs | Conferences and workshop organisation | Workshop catering | Catering for all six workshop days: 16 people x CHF 30 per day x 6 days. | 2880 | Covers the two full-day Villa Hatt workshops and the four four-hour workshops at ETH. |
+| Direct costs | Equipment | Software: agentic AI tool seats | Claude Code seats for the cohort: 15 seats x 6 months x CHF 100 per seat per month. | 9000 | Central to the eight-hour agentic AI workflows workshop and the support work between sessions. Operating cost is covered only to the end of the project, as footnote 2 of the annex allows for a project tool. The ETH Library lists AI-powered tools and services, but agentic coding tools there are unsupported: not managed by the ID CCR Cloud Service Center, no cloud assessments in place, use at the researcher's own responsibility. This line therefore does not duplicate a supported ETH service, and the conditions attached to unsupported tools are themselves part of what the programme teaches. |
+| Direct costs | Applicant training and education | Not requested | No costs requested under this category. | 0 | The applicants' competence development is delivered through the organisational change workshop and the agentic AI workflows work already budgeted under conferences and workshop organisation, so no separate training line is requested. |
+| Direct costs | Travel | Not requested | No costs requested under this category. | 0 | The programme runs at ETH Zurich and Villa Hatt. The only travel in the project is the external instructor's, booked under conferences and workshop organisation. |
+| Direct costs | Publications | Not requested | No costs requested under this category. | 0 | Data packages are published through Zenodo and the ETH Research Collection at no article processing charge. No open access publication costs are expected within the project. |
+| Direct costs | Other | Not requested | No costs requested under this category. | 0 | No further costs are essential to the project beyond those listed above. |
+| Subcontracting | Subcontracting | Not requested | No subcontracting costs. | 0 | No work is subcontracted. The programme is delivered by the Global Health Engineering Open Science Team, with the external instructor engaged on an honorarium rather than a subcontract. |
 
-The training and workshop delivery for the fifteen participants (CHF 30,000) covers organising and running the twelve-month programme: the five workshops, the support hours between them, and the hands-on work that takes each participant's dataset to a published FAIR data package. The cost is CHF 2,000 per participant place, for fifteen places. It is booked as conferences and workshop organisation. It is not a salary or personnel cost; it is the cost of delivering the training service, and the deliverable is fifteen trained researchers and fifteen published data packages.
+## 4 Annex
 
-The organisational-change workshop (CHF 6,500) covers the delivery of a full-day workshop by Greg Wilson on organisational change for open science. It trains the applicants and the cohort in the methods needed to embed FAIR practice in research groups, which is what turns a set of published data packages into a lasting change of practice. The cost covers honorarium, travel, three nights of accommodation, and the Villa Hatt venue.
+### 4.1 Table 2: Activities, Milestones, Research Questions
 
-The workshop catering and venue (CHF 3,900) covers running the five workshops: catering for four ETH-based workshops and the Villa Hatt venue for the organisational-change workshop.
+| **WP** | **Name** | **Project Activity** | **Milestone** | **Lead** | **Month** | **Q1** | **Q2** | **Q3** | **Q4** | **Research Question** |
+|----|----|----|----|----|---:|----|----|----|----|----|
+| WP1 | Setup and recruitment | Complete the cohort to fifteen through the continuing open call and collect signed commitments. | Cohort of fifteen confirmed | LS | 2 | X |  |  |  |  |
+| WP1 | Setup and recruitment | Collect each participant's dataset and a short data description. | Datasets and descriptions collected | LS | 2 | X |  |  |  | What types of research data does a mixed ETH cohort hold and which raise the hardest sharing questions? |
+| WP1 | Setup and recruitment | Run a baseline survey of RDM and RSE experience and competencies. | RDM baseline recorded | LS | 2 | X |  |  |  | Where do ETH researchers who already carry RDM responsibility stand at the start? |
+| WP1 | Setup and recruitment | Set up the ETH GitLab and GitHub spaces and the Matrix (Element) channel. | Programme environment live | AC | 1 | X |  |  |  |  |
+| WP1 | Setup and recruitment | Finalise the workshop schedule and confirm the two Villa Hatt bookings. | Schedule and venues confirmed | LS | 1 | X |  |  |  |  |
+| WP1 | Setup and recruitment | Divide the cohort between the two applicants, so each participant has a named contact for their data. | Support split agreed | LS, AC | 2 | X |  |  |  |  |
+| WP1 | Setup and recruitment | Confirm the Data Stewardship Network link for the programme. | DSN link confirmed | LS | 2 | X |  |  |  |  |
+| WP2 | Core workshops and data-package delivery | Git for Scientists. Four hours on Git and GitHub or GitLab collaborative workflows, building on existing material. | Workshop 1 delivered | LS (AC supporting) | 3 | X |  |  |  | Can a version-controlled workflow make AI use traceable as a by-product of the work, rather than as an after-the-fact statement? |
+| WP2 | Core workshops and data-package delivery | FAIR data sharing. Four hours on the openwashdata workflow, using each participant's own data. | Workshop 2 delivered | LS (AC supporting) | 4 |  | X |  |  | How does FAIR data sharing practice differ between the disciplines and data types in the cohort? |
+| WP2 | Core workshops and data-package delivery | GitHub for project and task management. Four hours on GitHub or GitLab for tracking research work. | Workshop 3 delivered | LS (AC supporting) | 5 |  | X |  |  | What record of human judgment and decision-making do researchers keep alongside AI-assisted work? |
+| WP2 | Core workshops and data-package delivery | Agentic AI. Eight hours on agentic AI workflows for data management, at Villa Hatt. | Workshop 4 delivered | LS (AC supporting) | 6 |  | X |  |  | How do researchers declare AI use in a way that shows what they still produced themselves? |
+| WP2 | Core workshops and data-package delivery | Organisational change for open science. Full day at Villa Hatt; the applicants host and participate rather than teach. | Workshop hosted | GW (hosted by LS, AC) | 8 |  |  | X |  | What organisational change methods work for embedding FAIR practice in an ETH research group? |
+| WP2 | Core workshops and data-package delivery | FAIR data management. Four hours taking each participant from a documented dataset to a data management strategy for their group. | Workshop 5 delivered | LS, AC | 9 |  |  | X |  | What does a research group need in a data management strategy for FAIR practice to outlast the individual who learned it? |
+| WP2 | Core workshops and data-package delivery | Run the support hours between workshops and take each dataset through the data-package pipeline to a citable release. | Fifteen data packages in progress | LS, AC | 9 |  | X | X | X |  |
+| WP3 | Community building and outreach | Run the day-to-day support channels: Matrix, 1:1 calls, and direct support on each participant's data. | Support channels running | AC | 1 | X | X | X | X |  |
+| WP3 | Community building and outreach | Run the quarterly two-hour hands-on project team meetings. | First team meeting held | AC | 3 | X | X | X | X |  |
+| WP3 | Community building and outreach | Host AI Playground sessions three times per term, open to anyone at ETH and the general public. | First playground sessions with the cohort | AC, LS | 3 | X |  |  |  |  |
+| WP3 | Community building and outreach | Publish the programme's material and progress on a public project website, including the OER as produced. | Project website live | LS | 6 |  | X | X | X |  |
+| WP3 | Community building and outreach | Share progress and findings through blog posts and social media, primarily LinkedIn. | First outreach posts published | AC, LS | 4 |  | X | X | X |  |
+| WP3 | Community building and outreach | Present the programme and interim findings at RDM and reproducibility venues and through the DSN and RSE Network. | First talk delivered | LS | 7 |  |  | X | X |  |
+| WP3 | Community building and outreach | Motivate participants to sign the FAIR Coalition Charter through the programme. Adriana Clavijo Daza signs at the start; Lars Schöbitz and Elizabeth Tilley are already signatories. | Cohort signed up to the Charter | AC, LS | 12 | X | X | X | X | Does working hands-on with their own data make researchers more willing to commit publicly to FAIR practice? |
+| WP4 | Consolidation, sustainability, and reporting | Publish the final FAIR data packages with DOIs, citation files with ORCIDs, and Research Collection entries. | Fifteen data packages published | LS, AC | 11 |  |  |  | X | How do researchers declare AI use on a published data package, and is a binary used-or-not declaration workable in practice? |
+| WP4 | Consolidation, sustainability, and reporting | Capture the programme as a reusable offering and publish all teaching material as OER with instructor handbooks. | OER and handbook published | LS | 12 |  |  |  | X | Which parts of the programme transfer to another ETH community unchanged, and which have to be rebuilt per discipline? |
+| WP4 | Consolidation, sustainability, and reporting | Define a light-touch baseline indicator of participants' open data practice and agree how it could be re-measured after the project. Scoped as a design step, not ongoing monitoring within the funded period. | Longitudinal indicator defined | LS | 12 |  |  |  | X | Does a hands-on programme change open data and AI-declaration practice durably, beyond the funded year and beyond the cohort? |
+| WP4 | Consolidation, sustainability, and reporting | Write up the community comparison and AI-declaration recommendations, and submit the final reports. | DSN contribution and final reports | LS | 12 |  |  |  | X | How do FAIR data sharing, data security, and the declaration of AI use differ between the communities in the cohort, and can a light-touch longitudinal indicator track whether participants' open data practice holds after the programme ends? |
 
-The software line (CHF 9,000) covers fifteen Claude Code seats for six months, at CHF 100 per seat per month, for the agentic-workflow workshop and the hands-on data-management work following it. The tool is central to the eight-hour agentic-workflow workshop and to the support work between sessions. Its operating cost is covered only to the end of the project, as the annex allows for a project tool. ETH Zurich does not currently provide Claude Code, or an equivalent agentic coding tool, at this scale to these researchers, so this line does not duplicate an existing ETH service; it equips the cohort for the hands-on agentic-workflow training that is central to the programme. [TODO verify against ETH IT's current offering before submission: if ETH IT provides an equivalent agentic coding tool to these researchers, this line is at risk and should be reconsidered.]
+### 4.2 Declaration of use of AI
+
+AI was used in preparing this application, in line with the ETH Guide to information security and AI, the Flyer on the responsible use of AI (ETH Cyber and Information Security, 23 September 2025) and the ETH Library citation guide. The ideas, design, budget and decisions are the applicants' own, and the July outline was written without AI. From 1 to 15 September 2026, Lars Schöbitz used Claude Code (Anthropic; models claude-opus-4-8, claude-opus-5, claude-fable-5, claude-fable-5-1) to draft passages from his instructions and data, restructure and shorten drafts, propose cuts against the page limit, cross-check text against tables and budget, check language, convert file formats, and write helper code. The applicants reviewed and edited every AI-drafted passage and take full responsibility. The full record is public at https://github.com/Global-Health-Engineering/fair-training: 24 of 37 commits name the assisting model and link to the verbatim prompt. The tools processed Lars Schöbitz's own CV and notes, the public contact details of the supporting unit heads, and interest form replies as counts without names. The complete statement, with the list of what AI drafted and the provenance record, is at https://github.com/Global-Health-Engineering/fair-training/blob/main/proposal/ai-use-statement.md.

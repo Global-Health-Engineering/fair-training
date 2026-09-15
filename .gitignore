@@ -4,3 +4,6 @@
 .Ruserdata
 *.Rproj
 .DS_Store
+export/
+tools/proposal-cuts.html
+tools/__pycache__/

@@ -1,34 +1,36 @@
 # Statement on the use of AI in preparing this application
 
-This statement declares how generative AI was used in preparing the FAIR Competence Funding application "FAIR by doing". It is provided in line with the call's requirement that "use of generative AI must follow the ETH Zurich Guide for Responsible Use of AI", and in line with ETH Zurich's principle that AI tools be transparently declared when used (see the references below). The work was carried out with a human in the loop throughout: the authors validated, edited, and take full responsibility for the content.
+AI was used in preparing the FAIR Competence Funding application "FAIR by doing", and this statement records how. The call requires that use of generative AI follows the ETH Zurich Guide for Responsible Use of AI. We read that as the Guide to information security and AI and the Flyer on the responsible use of AI, published by ETH Cyber and Information Security on 23 September 2025, together with the ETH Library citation guide, which asks that AI use be declared and treats an undeclared use as ghostwriting.
 
-## Declaration
+## What the applicants did and what AI did
 
-AI was used to support the preparation of this application. Specifically:
+The idea, the programme design, the budget, the recruitment and every decision in this proposal are the applicants' own. The July outline and the first email were written without AI tools.
 
-- AI was used to generate Markdown (.md) templates, so the proposal could be drafted in a machine-readable, non-proprietary file format (.md) before being placed into the required submission template.
-- AI was used to extract data and experience from the aboutme data package, which is a data package holding Lars Schöbitz's CV (talks, media, publications, and roles).
-- AI was used to surface relevant insights from a personal knowledge base that documents Lars Schöbitz's notes, references, and literature on topics relevant to this proposal.
-- AI was used to check spelling, grammar, and the overall coherence of the paragraphs.
-- AI was used to shorten the human-written text to the length required by the proposal template.
+From 1 to 15 September 2026, Lars Schöbitz worked with Claude Code (Anthropic), using the models claude-opus-4-8, claude-opus-5, claude-fable-5 and claude-fable-5-1. AI did the following:
 
-The ideas in this application are those of the authors. AI was used to support the preparation and presentation of those ideas, not to generate them.
+- drafted passages from his instructions and data, among them the recruitment risk, the answers in section 2.5, the work plan paragraph, the budget justification text, and the drafts of the two support letters, which the signatories reviewed before signing;
+- restructured and shortened earlier drafts;
+- proposed cuts to meet the page limit, which the applicants accepted or rejected one by one;
+- cross-checked the text against the tables and the budget;
+- checked spelling and grammar;
+- converted the draft between file formats;
+- wrote the helper code that reads the public work plan sheet and fills the template;
+- drafted this statement from the ETH documents the applicants had collected.
 
-## How this meets the ETH principles
+The applicants reviewed and edited every AI-drafted passage and take full responsibility for the content. Adriana Clavijo Daza wrote her own applicant section.
 
-- Transparency: this statement declares the use of AI openly, as ETH Zurich requires (a missing declaration is treated as a form of ghostwriting under the ETH citation guidance).
-- Responsibility and human-in-the-loop: the authors reviewed, corrected, and approved every part of the text. AI output was validated by the authors and is their responsibility.
-- Reproducibility and provenance: the application was drafted in the open in a Git repository, so the drafting history is recorded and inspectable. [The repository will be made public.]
+## The record
 
-## References (ETH Zurich guidance consulted)
+The record is public. The application was written in a Git repository at <https://github.com/Global-Health-Engineering/fair-training>. Up to commit 0ed5396 on 15 September 2026, the repository holds 37 commits since 19 July 2026. 24 of them carry a trailer naming the AI model that assisted, and each of those links to the verbatim prompt archived in the `prompts/` folder, with the files it changed. The other 13 carry no AI mark. This is the provenance trail the programme proposes to teach.
 
-- ETH Zurich, Zitierleitfaden der ETH Zürich (ETH Library, last updated 17 February 2025): generative AI output is not a citable source; where AI tools are used they must be transparently declared or made recognizable, and a missing declaration corresponds to ghostwriting.
-- ETH Zurich, Akademische Integrität / academic integrity guidance: the principles of responsibility, transparency, and fairness, and the requirement to keep a human in the loop to validate and check AI output for errors and bias.
-- ETH Zurich, Guidelines on Generative AI in Teaching and Learning.
-- ETH Zurich, information-security guidance on AI tools (ETH InfoSec KI-Guide) and the ETH list of licensed AI tools.
+## Personal data
 
-[TODO before submission:
-- Confirm the exact title and current URL of the document the FCF guidelines call the "ETH Zurich Guide for Responsible Use of AI", and cite that document by its exact name. The downloaded ETH materials cover the same principles under several titles (citation guide, academic-integrity page, teaching-and-learning guidelines, InfoSec KI-Guide); name the one the FCF office intends if it is a single specific page.
-- Decide whether to name the AI tools used (e.g. Claude Code) explicitly. ETH guidance favours transparency; naming the tool is optional but consistent with it.
-- Note on data protection: the aboutme extraction and the personal knowledge base involve personal data (Lars's own CV and notes). This is the author's own data, used with consent, so it raises no third-party data-protection issue; state that if the FAIR Board asks. Do not put third-party personal data through AI tools without a basis.
-- Remove this TODO block before submission.]
+The AI tools processed Lars Schöbitz's own CV data package and notes, the public work contact details of the two supporting unit heads, and the replies to the interest form as counts by department, unit and career stage, without names. No other personal data entered an AI system.
+
+## References
+
+- ETH Zurich, Cyber and Information Security: Guide to information security and AI, 23 September 2025. <https://ethz.ch/content/dam/ethz/associates/services/News/service-news/2025/09/250923-ki-leitfaden/ETH-InfoSec-AI-Guide-EN.pdf>
+- ETH Zurich, Cyber and Information Security: Flyer on the responsible use of AI, 23 September 2025. <https://ethz.ch/content/dam/ethz/associates/services/News/service-news/2025/09/250923-ki-leitfaden/ETH-InfoSec-AI-Flyer-EN.pdf>
+- ETH Zurich, Staffnet: New guidelines for the safe use of AI at ETH Zurich, September 2025. <https://ethz.ch/staffnet/en/news-and-events/internal-news/archive/2025/09/new-guidelines-for-the-safe-use-of-ai-at-eth-zurich.html>
+- ETH Library: Zitierleitfaden der ETH Zürich, last updated 17 February 2025. Generative AI output is not a citable source; AI use must be declared, and a missing declaration corresponds to ghostwriting.
+- ETH Zurich: Academic integrity and AI. <https://ethz.ch/en/the-eth-zurich/education/ai-in-education/academic-integrity.html>
