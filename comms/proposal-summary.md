@@ -1,6 +1,6 @@
 # FAIR by doing: hands-on FAIR training for ETH researchers
 
-**In one line:** A 12-month programme that trains 15 ETH researchers to make their own research data FAIR in the era of agentic AI tools. Each person takes a dataset of their own from a raw file to a published, citable data package.
+**In one line:** A 12-month programme that trains 15 ETH researchers to make their own research data FAIR and to declare their use of AI tools. Each person takes a dataset of their own from a raw file to a published, citable data package.
 
 > Summary of the FAIR Competence Funding (2nd call) proposal, for sharing with stakeholders. Tracks the current draft; open items are still being closed before the 15 September 2026 due date.
 
@@ -70,7 +70,7 @@ In delivery order from a 1 February 2027 start:
 
 ## Project summary (as in the proposal, about 150 words)
 
-FAIR by doing is a twelve-month programme that trains fifteen ETH researchers to make their own research data FAIR in the era of agentic AI tools. Each participant brings a dataset from their own work and leaves with it published as a citable data package with a DOI and a workflow they can repeat on their remaining data. Five taught workshops (24 hours) cover FAIR data sharing and management, Git and GitHub or GitLab, project management, and agentic AI workflows for data, alongside a full-day workshop on organisational change for open science. Researchers using agentic AI tools get more from well documented data and face the question of how to declare AI use and show what they still produced themselves. The programme works out practical answers with the cohort. The cohort mixes department, career stage, and discipline, so the applicants derive recommendations on how FAIR practice differs by community.
+FAIR by doing is a twelve-month programme that trains fifteen ETH researchers to make their own research data FAIR and to declare how they use AI tools. Each participant brings a dataset from their own work and leaves with it published as a citable data package with a DOI and a workflow they can repeat on their remaining data. Five taught workshops (24 hours) cover FAIR data sharing and management, Git and GitHub or GitLab, project management, and agentic AI workflows for data, alongside a full-day workshop on organisational change for open science. Researchers using agentic AI tools get more from well documented data and face the question of how to declare AI use and show what they still produced themselves. The programme works out practical answers with the cohort. The cohort mixes department, career stage, and discipline, so the applicants derive recommendations on how FAIR practice differs by community.
 
 ## After the grant
 

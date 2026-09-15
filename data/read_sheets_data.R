@@ -12,7 +12,7 @@ library(dplyr)
 
 # script ------------------------------------------------------------------
 
-gs4_auth()
+# gs4_auth()
 
 ## tbl-01-work-packages --------------------------------------------------
 
@@ -42,3 +42,4 @@ read_sheet("1PISLgDOJJ26eeb6m4VUouVEGL-052HWvdFXA90rJp4o") |>
 
 read_sheet("1N0_GrO5iZWtQPhYfl5Je35BtgQvAOmehRL6tSTZg5lw") |>
   write_csv(here::here("data/tables/tbl-04-budget-template.csv"), na = "")
+
