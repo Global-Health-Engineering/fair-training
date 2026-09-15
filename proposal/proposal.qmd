@@ -42,8 +42,6 @@ Render with: quarto render proposal.qmd
 
 [TODO keep to about 150 words in the DOCX. Draft below is 151 words; recount after the final edits.]
 
-FAIR by doing is a twelve-month programme that trains fifteen ETH researchers to make their own research data FAIR in the era of agentic AI tools. Each participant brings a dataset from their own work and leaves with it published as a citable data package with a DOI, plus a workflow they can repeat on the rest of their data. Five workshops (28 hours) cover FAIR data sharing and management, Git and GitHub or GitLab, project management, agentic AI workflows for data, and organisational change for open science. Researchers who use agentic AI tools get more out of well documented data, and they face the question of how to declare AI use and show what they still produced themselves. The programme works out practical answers with the cohort. The cohort is mixed by department, career stage, and discipline, so the applicants also derive recommendations on how FAIR practice differs between communities.
-
 ------------------------------------------------------------------------
 
 ## 1. Applicant (weight 20%)
@@ -187,7 +185,7 @@ Total requested from FAIR Competence Funding: CHF 49,400. This is under the CHF 
 | Travel | 0 |
 | Equipment (software: Claude Code, 15 seats x 6 months x 100) | 9,000 |
 | Publications | 0 |
-| Conferences and workshop organisation | 40,400 |
+| Conferences and workshop organisation (delivery, instructor, venues, catering) | 40,400 |
 | Other | 0 |
 | A. Total direct costs | 49,400 |
 | B. Total subcontracting costs | 0 |
@@ -196,8 +194,9 @@ Total requested from FAIR Competence Funding: CHF 49,400. This is under the CHF 
 Conferences and workshop organisation (CHF 40,400) breaks down as:
 
 - Training and workshop delivery for the fifteen participants: 15 x 2,000 = 30,000. This is the cost of organising and running the twelve-month training programme (the five workshops, the support hours, and the hands-on data-package work) for the fifteen participants, at CHF 2,000 per participant place.
-- Organisational-change workshop, Greg Wilson: honorarium 2,500 + travel 1,500 + three nights in Zurich 1,000 + Villa Hatt 1,500 = 6,500.
-- Workshop catering and venue: four workshops at ETH, catering 16 people x 30 = 480 each, so 4 x 480 = 1,920; plus Villa Hatt for one workshop 1,500. Subtotal 3,900.
+- Organisational-change workshop, Greg Wilson: honorarium 2,500 + travel 1,500 + three nights in Zurich 1,000 = 5,000.
+- Venue: two full-day workshops at Villa Hatt, the eight-hour agentic AI workflows workshop and the organisational-change workshop, at 1,500 each = 3,000. The three four-hour workshops are held at ETH at no venue cost.
+- Workshop catering: five workshops, 16 people x 30 = 480 each, so 5 x 480 = 2,400.
 
 ### 3.2 Justification of expenses
 
@@ -205,8 +204,8 @@ Each requested item is eligible under the call's annex and necessary to deliver 
 
 The training and workshop delivery for the fifteen participants (CHF 30,000) covers organising and running the twelve-month programme: the five workshops, the support hours between them, and the hands-on work that takes each participant's dataset to a published FAIR data package. The cost is CHF 2,000 per participant place, for fifteen places. It is booked as conferences and workshop organisation. It is not a salary or personnel cost; it is the cost of delivering the training service, and the deliverable is fifteen trained researchers and fifteen published data packages.
 
-The organisational-change workshop (CHF 6,500) covers the delivery of a full-day workshop by Greg Wilson on organisational change for open science. It trains the applicants and the cohort in the methods needed to embed FAIR practice in research groups, which is what turns a set of published data packages into a lasting change of practice. The cost covers honorarium, travel, three nights of accommodation, and the Villa Hatt venue.
+The organisational-change workshop (CHF 5,000) covers the delivery of a full-day workshop by Greg Wilson on organisational change for open science, held between mid-September and early October 2027. It trains the applicants and the cohort in the methods needed to embed FAIR practice in research groups, which is what turns a set of published data packages into a lasting change of practice. Placing it late in the project means the cohort brings published data packages to the change work. The cost covers honorarium, travel, and three nights of accommodation.
 
-The workshop catering and venue (CHF 3,900) covers running the five workshops: catering for four ETH-based workshops and the Villa Hatt venue for the organisational-change workshop.
+The venue and catering (CHF 5,400) cover running the five workshops. Two of them run a full day and are held at Villa Hatt, the eight-hour agentic AI workflows workshop and the organisational-change workshop, at CHF 1,500 each. The three four-hour workshops are held at ETH at no venue cost. Catering is CHF 30 per person for sixteen people at each of the five workshops.
 
 The software line (CHF 9,000) covers fifteen Claude Code seats for six months, at CHF 100 per seat per month, for the agentic-workflow workshop and the hands-on data-management work following it. The tool is central to the eight-hour agentic-workflow workshop and to the support work between sessions. Its operating cost is covered only to the end of the project, as the annex allows for a project tool. The ETH Library lists AI-powered tools and services for researchers, but the agentic coding tools in that space are listed as unsupported: they are not managed by the ID CCR Cloud Service Center, no cloud assessments are in place, and use is at the researcher's own responsibility. This line therefore does not duplicate a supported ETH service. It gives the cohort a tool on a managed, funded footing for the duration of the programme, and the conditions attached to unsupported tools are themselves part of what the programme teaches: responsible use, what may be sent to a third-party service, and how AI-assisted work is declared are treated as questions the cohort works through on their own data.
