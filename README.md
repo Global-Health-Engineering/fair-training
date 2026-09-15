@@ -8,12 +8,12 @@ The ETH FAIR Competence Funding supports projects that build FAIR (Findable, Acc
 
 - **Applicants:** Lars Schöbitz (corresponding) and Adriana Clavijo Daza, Global Health Engineering, D-MAVT.
 - **Due:** 15 September 2026, 17:00 CET, submitted as a PDF to openscience@sl.ethz.ch using the official template.
-- **Funding cap:** CHF 50,000. This proposal requests CHF 49,400, all direct cost.
-- **Duration:** 12 months, starting January or February 2027.
+- **Funding cap:** CHF 50,000. This proposal requests CHF 49,880, all direct cost.
+- **Duration:** 12 months from 1 February 2027.
 
 ## The proposal in brief
 
-A 12-month programme that trains 15 ETH researchers to make their own research data FAIR in the era of agentic AI tools, by doing it. Each participant takes a dataset of their own from a raw file to a published, citable data package. The cohort is mixed by department, career stage, and discipline, so the programme can treat FAIR practice as something that differs by community and data type rather than as one generic skill set. Five workshops (28 hours) cover FAIR data sharing and data management, Git and GitHub/GitLab collaboration, task and project management, agentic AI workflows, and organisational change for open science. Participants use agentic AI tools on their own data, and the programme works out how to declare AI use in a way that goes beyond ticking a box and shows what researchers still produced themselves.
+A 12-month programme that trains 15 ETH researchers to make their own research data FAIR in the era of agentic AI tools, by doing it. Each participant takes a dataset of their own from a raw file to a published, citable data package. The cohort is mixed by department, career stage, and discipline, so the programme can treat FAIR practice as something that differs by community and data type rather than as one generic skill set. Five taught workshops (24 hours) cover Git and GitHub/GitLab collaboration, FAIR data sharing, task and project management, agentic AI workflows, and FAIR data management, alongside a full-day workshop on organisational change for open science hosted with Greg Wilson. Participants use agentic AI tools on their own data, and the programme works out how to declare AI use in a way that goes beyond ticking a box and shows what researchers still produced themselves.
 
 For a fuller, scannable overview, see [comms/proposal-summary.md](comms/proposal-summary.md).
 
@@ -21,7 +21,7 @@ For a fuller, scannable overview, see [comms/proposal-summary.md](comms/proposal
 
 ### `proposal/`
 
-- [`proposal.qmd`](proposal/proposal.qmd) - the proposal itself, in Quarto, mapped one to one onto the official template sections. Renders to DOCX with `quarto render proposal.qmd`.
+- [`proposal.qmd`](proposal/proposal.qmd) - the proposal itself, in Quarto, mapped one to one onto the official template sections. `tools/fill_template.py` writes it into the official DOCX template; `quarto render` gives a plain DOCX for reading.
 - [`ai-use-statement.md`](proposal/ai-use-statement.md) - the declaration of how generative AI was used in preparing the application, following ETH guidance on responsible AI use.
 - [`differentiation-notes.md`](proposal/differentiation-notes.md) - working notes on how the programme differs from, and complements, the DSN and the RDM Summer School.
 
@@ -31,6 +31,12 @@ For a fuller, scannable overview, see [comms/proposal-summary.md](comms/proposal
 - [`commitment-sheet.md`](comms/commitment-sheet.md) - participant commitment sheet.
 - [`recruitment-plan.md`](comms/recruitment-plan.md) - plan for recruiting the 15 participants.
 - [`interest-form.md`](comms/interest-form.md) - field specification for the expression-of-interest form, with the selection criteria the answers feed.
+
+### `data/` and `tools/`
+
+- [`data/read_sheets_data.R`](data/read_sheets_data.R) - reads the four work plan and budget Google Sheets into `data/tables/` as CSV. The sheets are the source of truth for the tables.
+- [`tools/fill_template.py`](tools/fill_template.py) - fills the official DOCX template from `proposal.qmd` and `data/tables/`.
+- [`tools/build_review.py`](tools/build_review.py) - builds the side-by-side cut review page used to shorten the draft; `tools/cuts.json` records the shortened drafts and their rationale.
 
 ### `references/`
 

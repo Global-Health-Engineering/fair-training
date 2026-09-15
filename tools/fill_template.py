@@ -21,7 +21,7 @@ from docx.enum.text import WD_ALIGN_PARAGRAPH
 ROOT = Path(__file__).resolve().parent.parent
 QMD = ROOT / "proposal" / "proposal.qmd"
 TMPL = ROOT / "references" / "FAIR-Seed-Funding-2ndcall-Template.docx"
-TABLES = ROOT / "tables"
+TABLES = ROOT / "data" / "tables"
 OUT = ROOT / "export" / "2026-09-15-fair-by-doing-proposal.docx"
 
 BUDGET = [
@@ -29,14 +29,20 @@ BUDGET = [
     ("Travel", "0"),
     ("Equipment", "9,000"),
     ("Publications", "0"),
-    ("Conferences and Workshop organisation", "40,400"),
+    ("Conferences and Workshop organisation", "40,880"),
     ("Other", "0"),
 ]
-TOTALS = ["49,400", "0", "49,400"]
+TOTALS = ["49,880", "0", "49,880"]
 
 
 def strip_todo(text):
-    """Remove [TODO ...] markers; they are notes to the authors."""
+    """Remove [TODO ...] markers and pandoc escapes.
+
+    The visual editor writes \\[, \\] and \\@ into the qmd. Quarto renders
+    them, but text pasted straight into the DOCX must not carry the
+    backslashes, so unescape first and strip the TODO markers second.
+    """
+    text = re.sub(r"\\([\[\]@])", r"\1", text)
     return re.sub(r"\[TODO[^\]]*\]\s*", "", text).strip()
 
 
@@ -224,7 +230,7 @@ def main():
 
 def insert_work_plan(doc):
     """Append the milestone table at the end of the 2.3 block."""
-    csv_path = TABLES / "wp-goals.csv"
+    csv_path = TABLES / "tbl-01-work-packages.csv"
     if not csv_path.exists():
         return
     rows = list(csv.DictReader(csv_path.open(encoding="utf-8")))
@@ -240,20 +246,16 @@ def insert_work_plan(doc):
     if anchor is None:
         return
 
-    months = {"WP1": "1 to 2", "WP2": "2 to 9", "WP3": "1 to 12",
-              "WP4": "10 to 12"}
-    leads = {"WP1": "Lars Schöbitz", "WP2": "Lars Schöbitz and Adriana Clavijo Daza",
-             "WP3": "Adriana Clavijo Daza", "WP4": "Lars Schöbitz"}
-
+    # Months and Lead come from the sheet now; the legend for LS, AC and GW
+    # sits on the roles sentence in 2.3.
     t = doc.add_table(rows=len(rows) + 1, cols=4)
     t.style = "Table Grid"
     hdr = ["WP", "Goal", "Months", "Lead"]
     for ci, htxt in enumerate(hdr):
         write_para(t.rows[0].cells[ci].paragraphs[0], htxt, bold=True, size=9)
     for ri, r in enumerate(rows, start=1):
-        wp = r["WP"]
-        vals = [f'{wp}: {r["Name"]}', r["Goal"], months.get(wp, ""),
-                leads.get(wp, "")]
+        vals = [f'{r["WP"]}: {r["Name"]}', r["Goal"], r.get("Months", ""),
+                r.get("Lead", "")]
         for ci, v in enumerate(vals):
             write_para(t.rows[ri].cells[ci].paragraphs[0], v, size=9)
     anchor._element.addprevious(t._element)
