@@ -2,6 +2,12 @@
 
 Application materials for **FAIR by doing**, a proposal to the ETH FAIR Competence Funding (2nd call).
 
+## Expression of interest
+
+Would you like to take part in FAIR by doing? Fill in the expression of interest form: <https://forms.gle/zx1eG7XSy8SAcenH8>
+
+The form asks eleven short questions about you and your research. The field specification and the selection criteria behind it are in [comms/interest-form.md](comms/interest-form.md).
+
 ## The call
 
 The ETH FAIR Competence Funding supports projects that build FAIR (Findable, Accessible, Interoperable, Reusable) competence at ETH Zurich and strengthen the ETH Data Stewardship Network (DSN). This is the 2nd call.
